@@ -1,0 +1,128 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="report.css" type="text/css">
+<html lang="en">
+
+<meta charset="utf-8">
+<div class="container">
+<head>
+  <div class="header1">
+  <h1 align="center"> <strong></strong><span>TESTING | </span> REPORT </strong></h1>
+  </div>
+  <nav> 
+      <div class="filter">
+          <button id="All" onclick="()">All</button> 
+          <button id="totalSuccess" onclick="()">Passed</button>
+          <button id="totalFailure" onclick="()">Failed</button>
+      </div>
+      <br>
+      <br>
+  </nav>
+</head>
+
+
+<body>
+  <div class="row">
+    <div id="body" class="col-sm-2">Script Name</div>
+    <div id="body" class="col-sm-1">Run Time</div>
+    <div id="body" class="col-sm-1">Run Date</div>
+    <div id="body" class="col-sm-1">Pass / Fail</div>
+    <div id="body" class="col-sm-6">Error Message</div>
+    <div id="body" class="col-sm-1">Logo</div>
+  </div>
+</body>
+
+<footer>
+  <div class="result">
+    <div id="scriptName" class="col-sm-2"></div>
+    <div id="runDuration" class="col-sm-1"></div>
+    <div id="runDate" class="col-sm-1"></div>
+    <div id="passFail" class="col-sm-1"></div>
+    <div id="errorMessage" class="col-sm-6"></div>
+    <div id="logo" class="col-sm-1"></div>
+    <div id="a" class="col-sm-2"></div>
+    <div id="b" class="col-sm-1"></div>
+    <div id="c" class="col-sm-1"></div>
+    <div id="d" class="col-sm-1"></div>
+    <div id="e" class="col-sm-6"></div>
+    <div id="f" class="col-sm-1"></div>
+  </div>
+</footer>
+</div>
+
+</html> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+var All = 0;
+var totalSuccess = 0;
+var totalFailure = 0;
+
+function getScriptName(result){
+    var replaceLogFile = result.LogFile.replace("/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/","");
+      var index = replaceLogFile.indexOf("\/");
+      var scriptName = replaceLogFile.slice(0, index);
+      return scriptName;
+}
+
+
+function allScripts(){
+    document.getElementById("scriptName").innerHTML = "";
+    document.getElementById("runDuration").innerHTML = "";
+    document.getElementById("runDate").innerHTML = "";
+    document.getElementById("passFail").innerHTML = "";
+    document.getElementById("errorMessage").innerHTML = "";
+    document.getElementById("logo").innerHTML = "";
+}
+
+  $.getJSON("integrationTest.json", function (result) {
+    for (var i = 0; i < result.length; i++){  
+        var scriptName = getScriptName(result[i]);
+        var dur = parseFloat(result[i].Duration);
+        var duration = dur.toFixed(2) + "s";
+        var status;
+        var RunDate = result[i].RunDate.slice(0,10);
+        var errorMessage;
+        var logo; 
+        var githubLink = '<b><u><a href="https://github.com/spidasoftware/calc/blob/master/qa/Unit%20%26%20Integration%20Test/Unit_Testing.suite/Scripts/' + scriptName + '.script"> ' + scriptName + '</b></u></a>'
+
+        var logoLink;
+        All++; 
+        if (result[i].Status == "Success"){
+          logo = '<img src="Images/' + "pass" +'.png" class="passLogo">';
+          status = "Success"
+          errorMessage = "No Errors Found!";
+          totalSuccess++;
+        }else if (result[i].Status == "Failure"){
+          logo = '<img src="Images/' + scriptName +'.png" class="logo">';
+          logoLink = '<a href="Images/' + scriptName +'.png">';
+          status = "Failure";
+          totalFailure++;
+          errorMessage = result[i].ErrorMessage;
+        }
+ 
+      errorMessage = errorMessage.replace("Runtime Error at ","");
+      errorMessage = errorMessage.replace(" - Could Not Open Image","");
+      errorMessage = errorMessage.replace(" - No Image Found On Screen","");
+      errorMessage = errorMessage.replace("imagefound Error", "");
+      errorMessage = errorMessage.replace("-- ","")
+
+      
+
+      status == "Success" ? $("#scriptName").prepend('<p>' + githubLink + '</p>') : $("#scriptName").append('<p>' + githubLink + '</p>');
+      status == "Success" ? $("#runDuration").prepend('<p><b>' + duration + '</b></p>') : $("#runDuration").append('<p><b>' + duration + '</b></p>');
+      status == "Success" ? $("#runDate").prepend('<p><b>' + RunDate + '</b></p>') : $("#runDate").append('<p><b>' + RunDate + '</p>');
+      status == "Success" ? $("#passFail").prepend('<p><b> <font color="green">Success</font> </b></p>') : $("#passFail").append('<p><b> <font color="red">Failure</font> </b></p>');
+      status == "Success" ? $("#errorMessage").prepend('<p><b>' + errorMessage + '</b></p>') : $("#errorMessage").append('<p><b>' + errorMessage + '</b></p>');
+      status == "Success" ? $("#logo").prepend('<p>' + logo + '</a></p>') : $("#logo").append('<p>' + logoLink + logo + '</a></p>');
+
+    }  
+    document.getElementById("All").innerHTML = '<font color="#3d3d3d"> All ' + All + '</font>';
+    document.getElementById("totalSuccess").innerHTML = '<font color="green"> Passed ' + totalSuccess + '</font>';
+    document.getElementById("totalFailure").innerHTML = '<font color="red"> Failed ' + totalFailure + '</font>'
+  });
+
+
+</script>
+
