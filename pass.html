@@ -8,8 +8,8 @@
 <head>
   <div class="header1">
   <h1> TESTING REPORT <div class="filter">
-          <u><a href="index.html" id="All" style="color:white">ALL: </a></u>
-          <a href="pass.html" id="totalSuccess" style="color:#4CAF50"> PASSED:</a>
+          <a href="index.html" id="All" style="color:white">ALL: </a>
+          <u><a href="pass.html" id="totalSuccess" style="color:#4CAF50"> PASSED:</a></u>
           <a href="fail.html" id="totalFailure" style="color:red">FAILED: </a>
       </div></h1>
   </div>
@@ -100,21 +100,23 @@ function clearTable(){
           errorMessage = errorMessage.replace("-- ","")
 
           var table = document.getElementById("myTable");
+          
+
+          if (status == "Success"){  
           var row = table.insertRow(1);
           var cell1 = row.insertCell(0);
           var cell2 = row.insertCell(1);
           var cell3 = row.insertCell(2);
           var cell4 = row.insertCell(3);
           var cell5 = row.insertCell(4);
-          var cell6 = row.insertCell(5);
-          
+          var cell6 = row.insertCell(5);        
           cell1.innerHTML = githubLink;
           cell2.innerHTML = duration;
           cell3.innerHTML = RunDate;
-          status == "Success" ? cell4.innerHTML = '<font color="#4CAF50">Success</font>' : cell4.innerHTML = '<font color="red">Failure</font>';
+          cell4.innerHTML = '<font color="#4CAF50">Success</font>';
           cell5.innerHTML = errorMessage;
-          status == "Success" ? cell6.innerHTML = logo : cell6.innerHTML = (logoLink + logo);
-
+          cell6.innerHTML = logo;
+        }
     }  
     document.getElementById("All").innerHTML = ' All: ' + All;
     document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;

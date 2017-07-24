@@ -8,9 +8,9 @@
 <head>
   <div class="header1">
   <h1> TESTING REPORT <div class="filter">
-          <u><a href="index.html" id="All" style="color:white">ALL: </a></u>
+          <a href="index.html" id="All" style="color:white">ALL: </a>
           <a href="pass.html" id="totalSuccess" style="color:#4CAF50"> PASSED:</a>
-          <a href="fail.html" id="totalFailure" style="color:red">FAILED: </a>
+          <u><a href="fail.html" id="totalFailure" style="color:red">FAILED: </a></u>
       </div></h1>
   </div>
 </head>
@@ -100,6 +100,8 @@ function clearTable(){
           errorMessage = errorMessage.replace("-- ","")
 
           var table = document.getElementById("myTable");
+
+          if (status == "Failure"){
           var row = table.insertRow(1);
           var cell1 = row.insertCell(0);
           var cell2 = row.insertCell(1);
@@ -111,14 +113,14 @@ function clearTable(){
           cell1.innerHTML = githubLink;
           cell2.innerHTML = duration;
           cell3.innerHTML = RunDate;
-          status == "Success" ? cell4.innerHTML = '<font color="#4CAF50">Success</font>' : cell4.innerHTML = '<font color="red">Failure</font>';
+          cell4.innerHTML = '<font color="red">Failure</font>';
           cell5.innerHTML = errorMessage;
-          status == "Success" ? cell6.innerHTML = logo : cell6.innerHTML = (logoLink + logo);
-
-    }  
+          cell6.innerHTML = (logoLink + logo);
+        }
     document.getElementById("All").innerHTML = ' All: ' + All;
     document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
     document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
+    }  
   });
 </script>
 
