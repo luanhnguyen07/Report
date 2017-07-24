@@ -53,19 +53,8 @@ function getScriptName(result){
       var scriptName = replaceLogFile.slice(0, index);
       return scriptName;
 }
-
-function clearTable(){
-  var counter = document.getElementById("myTable").rows.length;
-  var counter1 = counter -1 
-  console.log(counter);
-  for (var i = 0; i < counter; i++){
   
-  }
-}
-
-
-
-   document.getElementById("myTable").deleteRow(1);
+   document.getElementById("myTable").deleteRow(1); //clears placeholder row
    All = 0, totalSuccess = 0, totalFailure = 0;
    $.getJSON("integrationTest.json", function (result) {
     for (var i = result.length; i--;){  
