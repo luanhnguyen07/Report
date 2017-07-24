@@ -1,0 +1,102 @@
+
+.container {
+   width: 80%;
+
+}
+
+table, td {
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+    font-family:'Quicksand';
+}
+
+.result{
+	line-height: 30px;
+	font-size: 12px;
+	font-family: Sans-serif;
+}
+
+.row{
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 15px;
+	font-family: Sans-serif;
+	font-family:'Quicksand';
+}
+
+#body{
+	background-color: #4CAF50;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+
+body{
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+.header1{
+	font-size: 22px;
+	color:white;
+	font-family:'Quicksand';
+}
+
+
+.filter{
+	float: right;
+	font-size: 17px;
+}
+
+
+#runDuration,#scriptName,#runDate,#passfail,#errorMessage,#logo {
+	margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+	color:white;
+	white-space: nowrap;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+
+
+  	background-color: white;
+	border: 1px solid black;
+	padding: 20px;
+	font-size: 16px;
+}
+
+.logo {
+	margin: 0;
+	width: 70px;
+	height: 40px;
+}
+
+.passLogo{
+	position: relative;
+	left: 20%;
+	width: 40px;
+	height: 25px;
+}
+
+#All,#totalSuccess,#totalFailure{
+	border: none;
+	background: none;
+	padding: 10px;
+}
+
+#All{
+	color:white;
+}
+
+#totalSuccess{
+	color:#4CAF50;
+}
+
+#totalFailure{
+	color:red;
+}

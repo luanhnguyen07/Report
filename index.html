@@ -1,0 +1,124 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<link rel="stylesheet" href="report.css" type="text/css">
+<html lang="en">
+
+<meta charset="utf-8">
+<div class="container">
+<head>
+  <div class="header1">
+  <h1> TESTING REPORT <div class="filter">
+          <button id="All" >All</button> 
+          <button id="totalSuccess" >Passed</button>
+          <button id="totalFailure" >Failed</button>
+      </div></h1>
+  </div>
+</head>
+
+
+
+<table id ="myTable">
+  <tr>
+    <th id="body" >Script Name</th>
+    <th id="body" >Duration</th> 
+    <th id="body" >Date</th>
+    <th id="body" >Status</th>
+    <th id="body" >Message</th> 
+    <th id="body" >Image</th>
+  </tr>
+  <tr>
+    <td id="scriptName"></td>
+    <td id="runDuration"></td>
+    <td id="runDate"></td>
+    <td id="passFail"></td>
+    <td id="errorMessage"></td>
+    <td id="logo" ></td>
+  </tr>
+</table>
+</div>
+</html> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+var All = 0;
+var totalSuccess = 0;
+var totalFailure = 0;
+var active = true;
+
+function getScriptName(result){
+    var replaceLogFile = result.LogFile.replace("/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/","");
+      var index = replaceLogFile.indexOf("\/");
+      var scriptName = replaceLogFile.slice(0, index);
+      return scriptName;
+}
+
+function clearTable(){
+  var counter = document.getElementById("myTable").rows.length;
+  var counter1 = counter -1 
+  console.log(counter);
+  for (var i = 0; i < counter; i++){
+  
+  }
+}
+
+
+
+   document.getElementById("myTable").deleteRow(1);
+   All = 0, totalSuccess = 0, totalFailure = 0;
+   $.getJSON("integrationTest.json", function (result) {
+    for (var i = result.length; i--;){  
+        var scriptName = getScriptName(result[i]);
+        var dur = parseFloat(result[i].Duration);
+        var duration = dur.toFixed(2) + "s";
+        var status;
+        var RunDate = result[i].RunDate.slice(0,10);
+        var errorMessage;
+        var logo; 
+        var githubLink = '<b><a href="https://github.com/spidasoftware/calc/blob/master/qa/Unit%20%26%20Integration%20Test/Unit_Testing.suite/Scripts/' + scriptName + '.script"> ' + scriptName + '</b></a>'
+
+        var logoLink;
+        All++; 
+        if (result[i].Status == "Success"){
+          logo = '<img src="Images/' + "pass" +'.png" class="passLogo">';
+          status = "Success"
+          errorMessage = "No Errors Found!";
+          totalSuccess++;
+        }else if (result[i].Status == "Failure"){
+          logo = '<img src="Images/' + scriptName +'.png" class="logo">';
+          logoLink = '<a href="Images/' + scriptName +'.png">';
+          status = "Failure";
+          totalFailure++;
+          errorMessage = result[i].ErrorMessage;
+        }
+ 
+          errorMessage = errorMessage.replace("Runtime Error at ","");
+          errorMessage = errorMessage.replace(" - Could Not Open Image","");
+          errorMessage = errorMessage.replace(" - No Image Found On Screen","");
+          errorMessage = errorMessage.replace("imagefound Error", "");
+          errorMessage = errorMessage.replace("-- ","")
+
+          var table = document.getElementById("myTable");
+          var row = table.insertRow(1);
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          var cell3 = row.insertCell(2);
+          var cell4 = row.insertCell(3);
+          var cell5 = row.insertCell(4);
+          var cell6 = row.insertCell(5);
+          
+          cell1.innerHTML = githubLink;
+          cell2.innerHTML = duration;
+          cell3.innerHTML = RunDate;
+          status == "Success" ? cell4.innerHTML = '<font color="#4CAF50">Success</font>' : cell4.innerHTML = '<font color="red">Failure</font>';
+          cell5.innerHTML = errorMessage;
+          status == "Success" ? cell6.innerHTML = logo : cell6.innerHTML = (logoLink + logo);
+
+    }  
+    document.getElementById("All").innerHTML = ' All: ' + All;
+    document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
+    document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
+  });
+</script>
+
