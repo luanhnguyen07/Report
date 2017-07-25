@@ -122,7 +122,7 @@ function allscripts(){
   clearTable();
   document.getElementById("myTable").deleteRow(1);
    All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON("IntegrationTest.json", function (result) {
+   $.getJSON("integrationTest.json", function (result) {
     for (var i = result.length; i--;){  
         var scriptName = getScriptName(result[i]);
         var dur = parseFloat(result[i].Duration);
