@@ -36,7 +36,8 @@
     "Warnings": "0"
   },
   {
-    "Duration": "84.58861",
+    "Duration": "84.588610",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Toolbar/20170724_133912.486/LogFile.txt",
@@ -59,13 +60,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "43.484380",
-    "ErrorMessage": "Runtime Error at line 39: Image Not Found - doubleclick Error - No Image Found On Screen: \"Project_Settings/Loading/go95_heavy\" -- ",
+    "Duration": "84.593626",
+    "ErrorMessage": "Image Not Found -- click Error - No Image Found On Screen: \"preferences/reset_location_checked\"",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Preferences_Menu/20170720_162040.326/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Preferences_Menu/20170724_134705.424/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-20 16:20:40.326 -0400",
+    "RunDate": "2017-07-24 13:47:05.424 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -227,15 +228,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "38.565257",
-    "ErrorMessage": "Runtime Error at line 16: scriptFailure - 2. Show Map -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Design_Settings_Loading/20170721_151421.517/LogFile.txt",
+    "Duration": "143.036731",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Design_Settings_Loading/20170724_142213.407/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-21 15:14:21.517 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-24 14:22:13.407 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -275,13 +276,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "80.529972",
-    "ErrorMessage": "Runtime Error at line 2: Image Not Found - doubleclick Error - No Image Found On Screen: \"(TEXT:\"Lead\")\" -- ",
+    "Duration": "322.104074",
+    "ErrorMessage": "Image Not Found -- click Error - No Image Found On Screen: \"Project_Tree/collapseAll\"",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Project_Tree/20170720_165122.796/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Project_Tree/20170724_142522.890/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-20 16:51:22.796 -0400",
+    "RunDate": "2017-07-24 14:25:22.890 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -299,15 +300,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.023231",
-    "ErrorMessage": "bug_ticket -- https://www.pivotaltracker.com/story/show/149089315",
-    "Errors": "1",
-    "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Graphic_View_3D/20170720_165309.373/LogFile.txt",
+    "Duration": "144.765503",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Graphic_View_3D/20170724_155943.498/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-20 16:53:09.373 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-24 15:59:43.498 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -323,13 +324,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.016222",
-    "ErrorMessage": "bug_ticket -- https://www.pivotaltracker.com/story/show/149089315",
+    "Duration": "26.274048",
+    "ErrorMessage": "scriptFailure -- 1b. Enable 3D View's Toolbar",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Graphic_View_Map/20170720_165336.163/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Graphic_View_Map/20170724_160825.559/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-20 16:53:36.163 -0400",
+    "RunDate": "2017-07-24 16:08:25.559 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -347,13 +348,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.015227",
-    "ErrorMessage": "bug_ticket -- https://www.pivotaltracker.com/story/show/149089315",
+    "Duration": "91.196854",
+    "ErrorMessage": "scriptFailure -- 3. Analysis Finish reveals toolbar",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Graphic_View_Analysis/20170720_165402.738/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Graphic_View_Analysis/20170724_160429.919/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-20 16:54:02.738 -0400",
+    "RunDate": "2017-07-24 16:04:29.919 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
