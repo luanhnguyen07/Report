@@ -1,0 +1,16 @@
+.header {
+    position: absolute;
+  	top: 30%;
+ 	left: 50%;
+  	transform: translate(-50%, -50%);
+    padding: 0px;
+    font-size: 28px;
+    font-family:'Quicksand';
+
+}
+
+
+
+body{
+	background-color: rgba(0,0,0,0.8);
+}
