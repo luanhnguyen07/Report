@@ -1,15 +1,29 @@
-.header {
+.header, #download{
     position: absolute;
   	top: 30%;
- 	left: 50%;
+ 	  left: 50%;
   	transform: translate(-50%, -50%);
-    padding: 0px;
-    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
     font-family:'Quicksand';
 
 }
 
+#structure{
+  color: white;
+  text-align: center;
+}
 
+#download{
+    position: absolute;
+  	top: 55%;
+  	border: none;
+  	background: none;
+  	color: #4CAF50;
+  	font-size: 17px;
+    padding: 5px;
+}
 
 body{
 	background-color: rgba(0,0,0,0.8);

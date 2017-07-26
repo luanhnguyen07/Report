@@ -53,8 +53,7 @@ body{
 	font-size: 17px;
 }
 
-
-#runDuration,#scriptName,#runDate,#passfail,#errorMessage,#logo {
+#runDuration,#scriptName,#runDate,#passfail,#errorMessage,#logo,#location,#type,#date,#status,#loadcase,#component,#analysisType,#olddate,#currentdate,#previousEngine,#currentEngine,#previousResult,#currentResult,#status {
 	margin-left: auto;
     margin-right: auto;
 	background-color: white;
@@ -84,14 +83,14 @@ body{
 }
 
 #home{
-	padding: 10px;
-	border: 2px solid black;
+	padding: 5px;
 	background: white;
 	width: 40px;
-	height: 10px;
+	height: 6px;
 	font: black;
-	border-radius: 20px;
+	border-radius: 2px;
 }
+
 #All,#totalSuccess,#totalFailure{
 padding: 10px;
 border: none;
