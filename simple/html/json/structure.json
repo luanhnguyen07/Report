@@ -8,7 +8,7 @@
   {
     "location": "Anchor and Guy",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -20,19 +20,19 @@
   {
     "location": "Anchor Guy and Strut Assembly",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Capacitor",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Capacitor",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -44,67 +44,67 @@
   {
     "location": "Crossarm Offset 10",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Crossarm",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Crossarm",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Guy Span Height at WEP 30",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Guy Span Height at WEP 30",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Guy Span Previous WEP inclination -20",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Guy Span Previous WEP inclination -20",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Guy Span",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Guy Span",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Heart Damage",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Heart Damage",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -140,19 +140,19 @@
   {
     "location": "Point Load",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Pole Lean Angle 20 Direction 0",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Pole Lean Angle 20 Direction 0",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -164,19 +164,19 @@
   {
     "location": "Pole Top Insulator",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Poor Foundation",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Poor Foundation",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -188,7 +188,7 @@
   {
     "location": "Push Brace GLC 35",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -200,19 +200,19 @@
   {
     "location": "Push Brace",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Tangent Wire Span",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Tangent Wire Span",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -224,7 +224,7 @@
   {
     "location": "Wire and Dead End Insulator",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -236,7 +236,7 @@
   {
     "location": "Wire Crossarm and Insulator Assembly Previous WEP Inclination -20",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
@@ -248,43 +248,43 @@
   {
     "location": "Wire Crossarm and Insulator Assembly",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Wire Point Load X 50lbf Z 0lbf",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Wire Point Load X 50lbf Z 0lbf",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Wire Point Load X 50lbf Z 50lbf",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Wire Point Load X 50lbf Z 50lbf",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "Wire Point Load",
     "rundate": "7/21/17",
-    "status": "success",
+    "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "Wire Point Load",
     "rundate": "7/21/17",
-    "status": "failure",
+    "status": "success",
     "type": "7.0 & 7.0"
   },
   {
