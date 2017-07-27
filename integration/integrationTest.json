@@ -396,27 +396,25 @@
     "Warnings": "0"
   },
   {
-    "Duration": "45.117093",
-    "ErrorMessage": "Runtime Error at line 22: scriptFailure - 2a. Foundation Information, Table View -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Components_Tree_Poles_Foundation/20170721_100217.894/LogFile.txt",
-    "ReturnValue": "",
-    "RunDate": "2017-07-21 10:02:17.894 -0400",
-    "Status": "Failure",
+    "Duration": "20",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Components_Tree_Poles_Foundation/20170727_135408.720/LogFile.txt",
+    "RunDate": "2017-07-27 13:54:08.720 -0400",
+    "Status": "Running",
     "Successes": "0",
     "Warnings": "0"
   },
   {
-    "Duration": "88.171637",
-    "ErrorMessage": "Runtime Error at line 17: Image Not Found - drag Error - No Image Found On Screen: \"(TEXT:\"Arc\")\" -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Components_Tree_Poles_Damage/20170721_100315.587/LogFile.txt",
+    "Duration": "98.449356",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Components_Tree_Poles_Damage/20170726_171711.267/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-21 10:03:15.587 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-26 17:17:11.267 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -516,13 +514,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "47.080829",
-    "ErrorMessage": "Runtime Error at line 31: scriptFailure - 4a. Create a Push Brace, Graphic View -- ",
+    "Duration": "50.535907",
+    "ErrorMessage": "Runtime Error at line 30: scriptFailure - 4a. Create a Push Brace, Graphic View -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Components_Tree_Guying_Push_Brace/20170721_102204.613/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Components_Tree_Guying_Push_Brace/20170726_164855.694/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-21 10:22:04.613 -0400",
+    "RunDate": "2017-07-26 16:48:55.694 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -900,15 +898,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.014168",
-    "ErrorMessage": "bug -- https://www.pivotaltracker.com/story/show/149258065",
-    "Errors": "1",
-    "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/New_Project/20170721_110131.512/LogFile.txt",
+    "Duration": "306.862369",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/New_Project/20170727_134703.217/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-21 11:01:31.512 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-27 13:47:03.217 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -973,6 +971,7 @@
   },
   {
     "Duration": "255.813548",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/Analysis_Local/20170726_134616.138/LogFile.txt",
