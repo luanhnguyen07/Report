@@ -1,19 +1,22 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <link rel="stylesheet" href="../../../css/report.css" type="text/css">
-<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="../../../js/component.js"></script>
 
+<html lang="en">
 <meta charset="utf-8">
 <div class="container">
 <head>
   <div class="header1">
-  <h1> POINT LOAD X 50LBF Z 0LBF <div class="filter">
-          <a href="../../index.html"id="home" style="color:black">HOME</a>
-          <button onclick="allscripts()" id="All" style="color:white">ALL: </button>
-          <button onclick="passedscripts()" id="totalSuccess" style="color:#4CAF50"> PASSED: </button>
-          <button onclick="failedscripts()" id="totalFailure" style="color:red">FAILED: </button>
+    <h1> Point Load X 50lbf Z 0lbf <div class="filter">
+          <a href="../../../index.html"id="home" style="color:black">HOME</a>
+          <button onclick="allscripts('json/oldCurrentComponent.json','Point Load X 50lbf Z 0lbf')" id="All" style="color:white">ALL: </button>
+          <button onclick="passedscripts('json/oldCurrentComponent.json','Point Load X 50lbf Z 0lbf')" id="totalSuccess" style="color:#4CAF50"> PASSED: </button>
+          <button onclick="failedscripts('json/oldCurrentComponent.json','Point Load X 50lbf Z 0lbf')" id="totalFailure" style="color:red">FAILED: </button>
       </div></h1>
-  </div>
+    </div>
 </head>
 
 
@@ -43,179 +46,9 @@
     <td id="status"></td>
   </tr>
 </table>
-</div>
+
+<body onload="allscripts('json/oldCurrentComponent.json','Point Load X 50lbf Z 0lbf')">
+</body>
+
+  </div>
 </html> 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-
-var All = 0;
-var totalSuccess = 0;
-var totalFailure = 0;
-
-function clearTable(){
-  $("#myTable td").remove();
-}
-
-function allscripts(){
-   clearTable();
-   document.getElementById("myTable").deleteRow(1);
-   All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON("json/oldCurrentComponent.json", function (result) {
-    result.forEach(function(json){
-      if (json.location == "Point Load X 50lbf Z 0lbf"){
-      let loadcase = json.loadcase;
-      let component = json.component;
-      let analysisType = json.analysisType;
-      let olddate = json.olddate;
-      let currentdate = json.currentdate;
-      let previousEngine = json.previousEngine;
-      let currentEngine = json.currentEngine;
-      let previousResult = json.previousResult;
-      let currentResult = json.currentResult;
-      let status = json.status;
-
-      let table = document.getElementById("myTable");
-      let row = table.insertRow(-1);
-      let cell1 = row.insertCell(0);
-      let cell2 = row.insertCell(1);
-      let cell3 = row.insertCell(2);
-      let cell4 = row.insertCell(3);
-      let cell5 = row.insertCell(4);
-      let cell6 = row.insertCell(5);
-      let cell7 = row.insertCell(6);
-      let cell8 = row.insertCell(7);
-      let cell9 = row.insertCell(8);
-      let cell10 = row.insertCell(9);
-          
-      cell1.innerHTML = loadcase;
-      cell2.innerHTML = component;
-      cell3.innerHTML = analysisType;
-      cell4.innerHTML = olddate;
-      cell5.innerHTML = currentdate;
-      cell6.innerHTML = previousEngine;
-      cell7.innerHTML = currentEngine;
-      cell8.innerHTML = previousResult;
-      cell9.innerHTML = currentResult;    
-
-      All++
-      if (status == "success" ){
-        totalSuccess++;
-        cell10.innerHTML = '<font color="#4CAF50">Passed</font>';
-      }else if (status == "failure"){
-        totalFailure++;
-        cell10.innerHTML = '<font color="red">Failure</font>';
-      }
-    }
-  });
-  document.getElementById("All").innerHTML = ' All: ' + All;
-    document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
-    document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
-  });
- }
-
-
- function passedscripts(){
-  clearTable();
-   document.getElementById("myTable").deleteRow(1);
-   All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON("json/oldCurrentComponent.json", function (result) {
-    result.forEach(function(json){
-      if (json.location == "Point Load X 50lbf Z 0lbf"){
-      let loadcase = json.loadcase;
-      let component = json.component;
-      let analysisType = json.analysisType;
-      let olddate = json.olddate;
-      let currentdate = json.currentdate;
-      let previousEngine = json.previousEngine;
-      let currentEngine = json.currentEngine;
-      let previousResult = json.previousResult;
-      let currentResult = json.currentResult;
-      let status = json.status;
-
-      if (status == "success" ){
-      let table = document.getElementById("myTable");
-      let row = table.insertRow(-1);
-      let cell1 = row.insertCell(0);
-      let cell2 = row.insertCell(1);
-      let cell3 = row.insertCell(2);
-      let cell4 = row.insertCell(3);
-      let cell5 = row.insertCell(4);
-      let cell6 = row.insertCell(5);
-      let cell7 = row.insertCell(6);
-      let cell8 = row.insertCell(7);
-      let cell9 = row.insertCell(8);
-      let cell10 = row.insertCell(9);
-          
-      cell1.innerHTML = loadcase;
-      cell2.innerHTML = component;
-      cell3.innerHTML = analysisType;
-      cell4.innerHTML = olddate;
-      cell5.innerHTML = currentdate;
-      cell6.innerHTML = previousEngine;
-      cell7.innerHTML = currentEngine;
-      cell8.innerHTML = previousResult;
-      cell9.innerHTML = currentResult;   
-      cell10.innerHTML = '<font color="#4CAF50">Passed</font>';
-      }}
-    });  
-  });
- }
-
-
- function failedscripts(){
-  clearTable();
-   document.getElementById("myTable").deleteRow(1);
-   All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON("json/oldCurrentComponent.json", function (result) {
-    result.forEach(function(json){
-       if (json.location == "Point Load X 50lbf Z 0lbf"){
-      let loadcase = json.loadcase;
-      let component = json.component;
-      let analysisType = json.analysisType;
-      let olddate = json.olddate;
-      let currentdate = json.currentdate;
-      let previousEngine = json.previousEngine;
-      let currentEngine = json.currentEngine;
-      let previousResult = json.previousResult;
-      let currentResult = json.currentResult;
-      let status = json.status;
-
-      if (status == "failure"){
-        let table = document.getElementById("myTable");
-        let row = table.insertRow(-1);
-        let cell1 = row.insertCell(0);
-        let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2);
-        let cell4 = row.insertCell(3);
-        let cell5 = row.insertCell(4);
-        let cell6 = row.insertCell(5);
-        let cell7 = row.insertCell(6);
-        let cell8 = row.insertCell(7);
-        let cell9 = row.insertCell(8);
-        let cell10 = row.insertCell(9);
-          
-        cell1.innerHTML = loadcase;
-        cell2.innerHTML = component;
-        cell3.innerHTML = analysisType;
-        cell4.innerHTML = olddate;
-        cell5.innerHTML = currentdate;
-        cell6.innerHTML = previousEngine;
-        cell7.innerHTML = currentEngine;
-        cell8.innerHTML = previousResult;
-        cell9.innerHTML = currentResult;   
-        cell10.innerHTML = '<font color="red">Failed</font>';
-      }}
-    });
-    });
- }
-
-
-
-
-
-allscripts(); //active
-
-</script>
-

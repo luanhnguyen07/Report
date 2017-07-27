@@ -1,154 +1,43 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <link rel="stylesheet" href="../../css/report1.css" type="text/css">
-<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="../../js/simple.js"></script>
 
-<meta charset="utf-8">
-<div class="container">
-<head>
-  <div class="header1">
-  <h1> 7.0 & 7.0 ANALYSIS REPORT <div class="filter">
+
+<html lang="en" >
+  <meta charset="utf-8">
+  <div class="container">
+  <head>
+    <div class="header1">
+    <h1> 7.0 & 7.0 ANALYSIS REPORT <div class="filter">
           <a href="../../index.html"id="home" style="color:black">HOME</a>
-          <button onclick="allscripts()" id="All" style="color:white">ALL: </button>
-          <button onclick="passedscripts()" id="totalSuccess" style="color:#4CAF50"> PASSED: </button>
-          <button onclick="failedscripts()" id="totalFailure" style="color:red">FAILED: </button>
+          <button onclick="allscripts('json/structure.json','7.0 & 7.0','prevCurrent/')" id="All" style="color:white">ALL: </button>
+          <button onclick="passedscripts('json/structure.json','7.0 & 7.0','prevCurrent/')"   id="totalSuccess" style="color:#4CAF50"> PASSED: </button>
+          <button onclick="failedscripts('json/structure.json','7.0 & 7.0','prevCurrent/')" id="totalFailure" style="color:red">FAILED: </button>
       </div></h1>
   </div>
 </head>
 
 
-<table id ="myTable">
-  <tr>
-    <th id="body">Location</th>
-    <th id="body">Type</th> 
-    <th id="body">Last Updated</th>
-    <th id="body">Status</th>
-  </tr>
-  <tr>
-    <td id="location"></td>
-    <td id="type"></td>
-    <td id="date"></td>
-    <td id="status"></td></tr>
-  </tr>
-</table>
-</div>
+  <table id ="myTable">
+    <tr>
+      <th id="body">Location</th>
+      <th id="body">Type</th> 
+      <th id="body">Last Updated</th>
+      <th id="body">Status</th>
+    </tr>
+    <tr>
+      <td id="location"></td>
+      <td id="type"></td>
+      <td id="date"></td>
+      <td id="status"></td></tr>
+    </tr>
+  </table>
+
+  <body onload="allscripts('json/structure.json','7.0 & 7.0','prevCurrent/')">
+  </body>
+
+  </div>
 </html> 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-
-var All = 0;
-var totalSuccess = 0;
-var totalFailure = 0;
-
-function clearTable(){
-  $("#myTable td").remove();
-}
-
-function allscripts(){
-   clearTable();
-   document.getElementById("myTable").deleteRow(1);
-   All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON("json/structure.json", function (result) {
-    result.forEach(function(json){
-      let location = json.location;
-      let type = json.type;
-      let date = json.rundate;
-      let status = json.status;
-      All++; 
-
-      if (type =="7.0 & 7.0"){
-      let table = document.getElementById("myTable");
-      let row = table.insertRow(-1);
-      let cell1 = row.insertCell(0);
-      let cell2 = row.insertCell(1);
-      let cell3 = row.insertCell(2);
-      let cell4 = row.insertCell(3);
-          
-      cell1.innerHTML = '<a href="oldCurrent/' + location + '.html">' + location + '</a>';;
-      cell2.innerHTML = type;
-      cell3.innerHTML = date;
-      
-
-      if (status == "success" ){
-      totalSuccess++;
-      cell4.innerHTML = '<font color="#4CAF50">Passed</font>';
-      }else if (status == "failure"){
-      totalFailure++;
-      cell2.innerHTML = type;
-      cell4.innerHTML = '<font color="red">Failed</font>';
-      }
-    }
-    });  
-    document.getElementById("All").innerHTML = ' All: ' + All;
-    document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
-    document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
-  });
- }
-
- function passedscripts(){
-  clearTable();
-   document.getElementById("myTable").deleteRow(1);
-   All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON("json/structure.json", function (result) {
-    result.forEach(function(json){
-      let location = json.location;
-      let type = json.type;
-      let date = json.rundate;
-      let status = json.status;
-      All++; 
-
-      if (type =="7.0 & 7.0"){ 
-      let table = document.getElementById("myTable");                 
-      if (status == "success"){
-        let row = table.insertRow(-1);
-        let cell1 = row.insertCell(0);
-        let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2);
-        let cell4 = row.insertCell(3);
-        cell1.innerHTML = '<a href="oldCurrent/' + location + '.html">' + location + '</a>';
-        cell2.innerHTML = type;
-        cell3.innerHTML = date;
-        cell4.innerHTML = '<font color="#4CAF50">Passed</font>';
-      }
-    }
-   });
- });
-}
-
-
- function failedscripts(){
-    clearTable();
-   document.getElementById("myTable").deleteRow(1);
-   All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON("json/structure.json", function (result) {
-    result.forEach(function(json){
-      let location = json.location;
-      let type = json.type;
-      let date = json.rundate;
-      let status = json.status;
-      All++; 
-
-      if (type =="7.0 & 7.0"){   
-        let table = document.getElementById("myTable");
-        if (status == "failure"){
-        let row = table.insertRow(-1);
-        let cell1 = row.insertCell(0);
-        let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2);
-        let cell4 = row.insertCell(3);
-        cell1.innerHTML = '<a href="oldCurrent/' + location + '.html">' + location + '</a>';;
-        cell2.innerHTML = type;
-        cell3.innerHTML = date;
-        cell4.innerHTML = '<font color="red">Failed</font>';
-      }
-    }
-   });
- });
-}
-
- allscripts(); //active
-
-</script>
-
