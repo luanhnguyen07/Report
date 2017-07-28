@@ -36,15 +36,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "82.618358",
-    "ErrorMessage": "Runtime Error at line 25: scriptFailure - 5. Open Location Settings -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Toolbar/20170727_170900.494/LogFile.txt",
+    "Duration": "84.846018",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Toolbar/20170728_092856.498/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 17:09:00.494 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-28 09:28:56.498 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -96,15 +96,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.005970",
-    "ErrorMessage": "SenseTalk Compiler Exception -- in workspace:\nSyntax Error at line 128: Syntax Error - can't understand [end of script] at or near character 6536",
-    "Errors": "1",
+    "Duration": "214.048930",
+    "ErrorMessage": "",
+    "Errors": "0",
     "Exceptions": "0",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Workspace/20170727_171342.413/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Workspace/20170728_093125.809/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 17:13:42.413 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-28 09:31:25.809 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -132,15 +132,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "46.425669",
-    "ErrorMessage": "Runtime Error at line 14: Image Not Found - click Error - No Image Found On Screen: \"Project_Settings/Strength_Tab/none\" -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Project_Setting_Strength/20170727_172256.113/LogFile.txt",
+    "Duration": "171.319516",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Project_Setting_Strength/20170728_094535.819/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 17:22:56.113 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-28 09:45:35.819 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -252,27 +252,27 @@
     "Warnings": "0"
   },
   {
-    "Duration": "121.171589",
-    "ErrorMessage": "Runtime Error at line 80: scriptFailure - 11. Create Connected Location Enabled -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Design_Settings_GPS/20170727_174357.106/LogFile.txt",
+    "Duration": "156.981197",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Design_Settings_GPS/20170728_100916.184/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 17:43:57.106 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-28 10:09:16.184 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
-    "Duration": "46.503020",
-    "ErrorMessage": "Runtime Error at line 17: scriptFailure - 3a. Pole Stress/Moment set at 100% -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Design_Settings_Pole_StressMoment/20170727_174609.737/LogFile.txt",
+    "Duration": "127.528300",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Design_Settings_Pole_StressMoment/20170728_095851.797/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 17:46:09.737 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-28 09:58:51.797 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -972,15 +972,14 @@
     "Warnings": "0"
   },
   {
-    "Duration": "39.101861",
-    "ErrorMessage": "Runtime Error at line 13: scriptFailure - 3. Next Location -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Advisor_Local/20170727_185136.197/LogFile.txt",
+    "Duration": "163.210826",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Advisor_Local/20170728_102445.954/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 18:51:36.197 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-28 10:24:45.954 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -1056,15 +1055,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "65.633551",
-    "ErrorMessage": "Runtime Error at line 26: scriptFailure - 1. Adding a Communication Owner -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Manage_Local_Owners/20170727_190134.485/LogFile.txt",
+    "Duration": "93.569824",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Manage_Local_Owners/20170728_100424.356/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 19:01:34.485 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-07-28 10:04:24.356 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
