@@ -61,7 +61,6 @@ function allscripts(){
   let All = 0;
   let totalSuccess = 0;
   let totalFailure = 0;
-  let active = true;
    clearTable();
    document.getElementById("myTable").deleteRow(1);
    $.getJSON("integrationTest.json", function (result) {
