@@ -1,15 +1,11 @@
-let All = 0;
-let totalSuccess = 0;
-let totalFailure = 0;
-
 function clearTable(){
   $("#myTable td").remove();
 }
 
 function allscripts(url, id, link){
-	All = 0;
-	totalSuccess = 0;
-	totalFailure = 0;
+	let All = 0;
+  let totalSuccess = 0;
+  let totalFailure = 0;
    clearTable();
    document.getElementById("myTable").deleteRow(1);
    $.getJSON(url, function (result) {

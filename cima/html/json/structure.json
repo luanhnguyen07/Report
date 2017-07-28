@@ -1,49 +1,49 @@
 [
   {
     "location": "01-311A-15kV",
-    "rundate": "7/21/17",
+    "rundate": "7/27/17",
     "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "01-311A-15kV",
-    "rundate": "7/21/17",
+    "rundate": "7/27/17",
     "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "01-313-15kV",
-    "rundate": "7/21/17",
+    "rundate": "7/27/17",
     "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "01-313-15kV",
-    "rundate": "7/21/17",
+    "rundate": "7/27/17",
     "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "01-313A-15kV",
-    "rundate": "7/21/17",
+    "rundate": "7/27/17",
     "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "01-313A-15kV",
-    "rundate": "7/21/17",
+    "rundate": "7/27/17",
     "status": "success",
     "type": "7.0 & 7.0"
   },
   {
     "location": "01-318-15kV",
-    "rundate": "7/21/17",
+    "rundate": "7/27/17",
     "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "01-318-15kV",
-    "rundate": "7/21/17",
+    "rundate": "7/27/17",
     "status": "success",
     "type": "7.0 & 7.0"
   }

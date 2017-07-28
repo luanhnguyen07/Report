@@ -1,11 +1,13 @@
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-<link rel="stylesheet" href="../css/report.css" type="text/css">
-<html lang="en">
 
+<html lang="en">
 <meta charset="utf-8">
 <div class="container">
 <head>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" href="../css/report.css" type="text/css">
+
   <div class="header1">
   <h1> TESTING REPORT <div class="filter">
           <a href="../index.html"id="home" style="color:black">HOME</a>
@@ -42,13 +44,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 
-var All = 0;
-var totalSuccess = 0;
-var totalFailure = 0;
-var active = true;
+
 
 function getScriptName(result){
-    var replaceLogFile = result.LogFile.replace("/Users/luannguyen/Desktop/calc/qa/Unit & Integration Test/Unit_Testing.suite/Results/","");
+    var replaceLogFile = result.LogFile.replace("/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/","");
       var index = replaceLogFile.indexOf("\/");
       var scriptName = replaceLogFile.slice(0, index);
       return scriptName;
@@ -59,6 +58,10 @@ function clearTable(){
 }
 
 function allscripts(){
+  let All = 0;
+  let totalSuccess = 0;
+  let totalFailure = 0;
+  let active = true;
    clearTable();
    document.getElementById("myTable").deleteRow(1);
    $.getJSON("integrationTest.json", function (result) {
@@ -75,7 +78,7 @@ function allscripts(){
         let logoLink;
         All++; 
         if (status == "Success"){
-          logo = '<img src="../Images/' + "pass" +'.png" class="passLogo">';
+          logo = '<img src="pass.jpg" class="passLogo">';
           errorMessage = "No Errors Found!";
           totalSuccess++;
         }else if (status == "Failure"){
@@ -128,7 +131,7 @@ function allscripts(){
 
         var logoLink;
         if (json.Status == "Success"){
-          logo = '<img src="../Images/' + "pass" +'.png" class="passLogo">';
+          logo = '<img src="pass.jpg" class="passLogo">';
           status = "Success"
           errorMessage = "No Errors Found!";
 
@@ -170,7 +173,6 @@ function allscripts(){
           logo = '<img src="../Images/' + scriptName +'.png" class="logo">';
           logoLink = '<a href="../Images/' + scriptName +'.png">';
           status = "Failure";
-          totalFailure++;
           errorMessage = json.ErrorMessage;
         
  
