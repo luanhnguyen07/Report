@@ -1,13 +1,11 @@
-
-
 function clearTable(){
   $("#myTable td").remove();
 }
 
 function allscripts(url1, url2, id, link){
-  let All = 0;
-  let totalSuccess = 0;
-  let totalFailure = 0;
+  var All = 0;
+  var totalSuccess = 0;
+  var totalFailure = 0;
    clearTable();
    document.getElementById("myTable").deleteRow(1);
    All = 0, totalSuccess = 0, totalFailure = 0;
