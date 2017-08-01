@@ -49,7 +49,7 @@ function allscripts(url,id){
       All++
       if (status == "success" ){
         totalSuccess++;
-        cell10.innerHTML = '<font color="#4CAF50">Passed</font>';
+        cell10.innerHTML = '<font color="#4CAF50"><Passed</font>';
       }else if (status == "failure"){
         totalFailure++;
         cell10.innerHTML = '<font color="red">Failure</font>';

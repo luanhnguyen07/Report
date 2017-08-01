@@ -1,0 +1,54 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<link rel="stylesheet" href="../../../css/report.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="../../../js/component.js"></script>
+
+<html lang="en">
+<meta charset="utf-8">
+<div class="container">
+<head>
+  <div class="header1">
+    <h1> Wire Point Load X 50lbf Z 50lbf <div class="filter">
+          <a href="../../../index.html"id="home" style="color:black">HOME</a>
+          <button onclick="allscripts('json/ceeCurrentComponent.json','Wire Point Load X 50lbf Z 50lbf')" id="All" style="color:white">ALL: </button>
+          <button onclick="passedscripts('json/ceeCurrentComponent.json','Wire Point Load X 50lbf Z 50lbf')" id="totalSuccess" style="color:#4CAF50"> PASSED: </button>
+          <button onclick="failedscripts('json/ceeCurrentComponent.json','Wire Point Load X 50lbf Z 50lbf')" id="totalFailure" style="color:red">FAILED: </button>
+      </div></h1>
+    </div>
+</head>
+
+
+<table id ="myTable">
+  <tr>
+    <th id="body">Load Case</th> 
+    <th id="body">Component</th>
+    <th id="body">Anylsis Type</th>
+    <th id="body">Old Run Date</th>
+    <th id="body">New Run Date</th>
+    <th id="body">Old Engine</th>
+    <th id="body">New Engine</th> 
+    <th id="body">Old Results</th>
+    <th id="body">New Results</th>
+    <th id="body">Status</th>
+  </tr>
+  <tr>
+    <td id="loadcase"></td>
+    <td id="component"></td>
+    <td id="analysisType"></td>
+    <td id="olddate"></td></tr>
+    <td id="currentdate"></td>
+    <td id="previousEngine"></td>
+    <td id="currentEngine"></td>
+    <td id="previousResult"></td></tr>
+    <td id="currentResult"></td>
+    <td id="status"></td>
+  </tr>
+</table>
+
+<body onload="allscripts('json/ceeCurrentComponent.json','Wire Point Load X 50lbf Z 50lbf')">
+</body>
+
+  </div>
+</html> 
