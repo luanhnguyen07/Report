@@ -32,11 +32,11 @@ function allscripts(url, id, link){
 
       if (status == "success" ){
       totalSuccess++;
-      cell4.innerHTML = '<font color="#4CAF50">Passed</font>';
+      cell4.innerHTML = '<a href="' + url + '"><font color="#4CAF50">Passed</font></a>';
       }else if (status == "failure"){
       totalFailure++;
       cell2.innerHTML = type;
-      cell4.innerHTML = '<font color="red">Failed</font>';
+      cell4.innerHTML = '<a href="' + url + '"><font color="red">Failed</font></a>';
       }
     }
     });  
@@ -67,7 +67,7 @@ function allscripts(url, id, link){
         cell1.innerHTML = '<a href="' + link + location + '.html">' + location + '</a>';
         cell2.innerHTML = type;
         cell3.innerHTML = date;
-        cell4.innerHTML = '<font color="#4CAF50">Passed</font>';
+        cell4.innerHTML = '<a href="' + url + '"><font color="#4CAF50">Passed</font></a>';
       }
     }
    });
@@ -96,7 +96,7 @@ function allscripts(url, id, link){
         cell1.innerHTML = '<a href="' + link + location + '.html">' + location + '</a>';
         cell2.innerHTML = type;
         cell3.innerHTML = date;
-        cell4.innerHTML = '<font color="red">Failed</font>';
+        cell4.innerHTML = '<a href="' + url + '"><font color="red">Failed</font></a>';
       }
     }
    });
