@@ -156,15 +156,14 @@
     "Warnings": "0"
   },
   {
-    "Duration": "72.515967",
-    "ErrorMessage": "Runtime Error at line 41: Image Not Found - click Error - No Image Found On Screen: \"Project_Tree/expandAll\" -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Project_Settings_Design_Layer/20170728_150827.672/LogFile.txt",
+    "Duration": "177.675255",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Project_Settings_Design_Layer/20170803_160622.421/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-28 15:08:27.672 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-03 16:06:22.421 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -565,6 +564,7 @@
   },
   {
     "Duration": "288.976601",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Points_Wire_Point_Load/20170803_131515.069/LogFile.txt",
@@ -635,13 +635,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.012739",
+    "Duration": "0.574495",
     "ErrorMessage": "bug -- https://www.pivotaltracker.com/story/show/149239795",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Pole_Foundation/20170727_182550.248/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Pole_Foundation/20170803_152406.081/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 18:25:50.248 -0400",
+    "RunDate": "2017-08-03 15:24:06.081 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -659,15 +659,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "88.580979",
-    "ErrorMessage": "Runtime Error at line 4: scriptFailure - Click Location Function Failed -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Wires_Wire/20170801_144139.927/LogFile.txt",
+    "Duration": "166.152387",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Wires_Wire/20170803_160220.789/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-01 14:41:39.927 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-03 16:02:20.789 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -719,27 +719,27 @@
     "Warnings": "0"
   },
   {
-    "Duration": "65.992721",
-    "ErrorMessage": "Runtime Error at line 39: textNotFound - 5a. Min Attach Height, Table View -- ",
+    "Duration": "111.441122",
+    "ErrorMessage": "Runtime Error at line 55: Image Not Found - click Error - No Image Found On Screen: \"Table_View/Guying/changeAttachedtoFirstAnchor\" -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Guys/20170728_141942.155/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Guys/20170803_135339.338/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-28 14:19:42.155 -0400",
+    "RunDate": "2017-08-03 13:53:39.338 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
   },
   {
-    "Duration": "59.470669",
-    "ErrorMessage": "Runtime Error at line 37: textNotFound - 5a. Min Attach Height, Table View -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Sidewalk_Brace/20170803_115134.189/LogFile.txt",
+    "Duration": "118.957040",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Sidewalk_Brace/20170803_145430.083/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-03 11:51:34.189 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-03 14:54:30.083 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -755,13 +755,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.399167",
+    "Duration": "0.562567",
     "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/149925420",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Push_Brace/20170803_110242.081/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Push_Brace/20170803_152336.085/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-03 11:02:42.081 -0400",
+    "RunDate": "2017-08-03 15:23:36.085 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
