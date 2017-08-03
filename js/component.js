@@ -38,25 +38,23 @@ function allscripts(url,id){
       let cell6 = row.insertCell(5);
       let cell7 = row.insertCell(6);
       let cell8 = row.insertCell(7);
-      let cell9 = row.insertCell(8);
           
       cell1.innerHTML = loadcase;
       cell2.innerHTML = component;
       cell3.innerHTML = analysisType;
-      cell4.innerHTML = currentdate;
-      cell5.innerHTML = previousEngine;
-      cell6.innerHTML = currentEngine;
-      cell7.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
-      cell8.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
+      cell4.innerHTML = previousEngine;
+      cell5.innerHTML = currentEngine;
+      cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
+      cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
       
 
       All++
       if (status == "success" ){
         totalSuccess++;
-        cell9.innerHTML = '<a href="' + url + '"><font color="#4CAF50">Passed</font></a>';
+        cell8.innerHTML = '<a href="' + url + '"><font color="#4CAF50">Passed</font></a>';
       }else if (status == "failure"){
         totalFailure++;
-        cell9.innerHTML = '<a href="' + url + '"><font color="red">Failed</font></a>';
+        cell8.innerHTML = '<a href="' + url + '"><font color="red">Failed</font></a>';
       }
     }
   });
@@ -95,17 +93,15 @@ function allscripts(url,id){
       let cell6 = row.insertCell(5);
       let cell7 = row.insertCell(6);
       let cell8 = row.insertCell(7);
-      let cell9 = row.insertCell(8);
           
       cell1.innerHTML = loadcase;
       cell2.innerHTML = component;
       cell3.innerHTML = analysisType;
-      cell4.innerHTML = currentdate;
-      cell5.innerHTML = previousEngine;
-      cell6.innerHTML = currentEngine;
-      cell7.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
-      cell8.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
-      cell9.innerHTML = '<a href="' + url + '"><font color="#4CAF50">Passed</font></a>';
+      cell4.innerHTML = previousEngine;
+      cell5.innerHTML = currentEngine;
+      cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
+      cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
+      cell8.innerHTML = '<a href="' + url + '"><font color="#4CAF50">Passed</font></a>';
       }}
     });  
   });
@@ -140,17 +136,15 @@ function allscripts(url,id){
         let cell6 = row.insertCell(5);
         let cell7 = row.insertCell(6);
         let cell8 = row.insertCell(7);
-        let cell9 = row.insertCell(8);
           
         cell1.innerHTML = loadcase;
         cell2.innerHTML = component;
         cell3.innerHTML = analysisType;
-        cell4.innerHTML = currentdate;
-        cell5.innerHTML = previousEngine;
-        cell6.innerHTML = currentEngine;
-        cell7.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
-        cell8.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000; 
-        cell9.innerHTML = '<a href="' + url + '"><font color="red">Failed</font></a>';
+        cell4.innerHTML = previousEngine;
+        cell5.innerHTML = currentEngine;
+        cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
+        cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000; 
+        cell8.innerHTML = '<a href="' + url + '"><font color="red">Failed</font></a>';
       }}
     });
   });
