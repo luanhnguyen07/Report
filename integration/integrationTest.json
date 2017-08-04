@@ -157,6 +157,7 @@
   },
   {
     "Duration": "177.675255",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Project_Settings_Design_Layer/20170803_160622.421/LogFile.txt",
@@ -299,16 +300,16 @@
     "Warnings": "4"
   },
   {
-    "Duration": "47.111426",
-    "ErrorMessage": "Runtime Error at line 30: scriptFailure - 4b. Zoom into 3D View -- ",
+    "Duration": "106.882221",
+    "ErrorMessage": "Runtime Error at line 64: scriptFailure - 11. Undo, Delete Multi-Selected Components -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Side/20170727_174851.131/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Side/20170803_161838.528/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 17:48:51.131 -0400",
+    "RunDate": "2017-08-03 16:18:38.528 -0400",
     "Status": "Failure",
     "Successes": "0",
-    "Warnings": "1"
+    "Warnings": "0"
   },
   {
     "Duration": "36.412763",
