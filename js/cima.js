@@ -25,19 +25,19 @@ function allscripts(url1, url2, id, link){
       let cell3 = row.insertCell(2);
       let cell4 = row.insertCell(3);
           
-      cell1.innerHTML = '<a href="' + link + location + '.html">' + location + '</a>';
-      cell2.innerHTML = type;
-      cell3.innerHTML = date;
+      cell1.innerHTML = '<div style="min-width:275px"><a href="' + link + location + '.html">' + location + '</a></div>';
+      cell2.innerHTML = '<div style="min-width:275px">' + type + '</div>';
+      cell3.innerHTML = '<div style="min-width:275px">' + date + '</div>';
       
 
       if (status == "success" ){
       totalSuccess++;
-      cell4.innerHTML = '<a href="' + url1 + '"><font color="#4CAF50">Passed</font></a>';
+      cell4.innerHTML = '<div style="min-width:275px"> <a href="' + url1 + '"><font color="#4CAF50">Passed</font></a></div>';
       }else if (status == "failure"){
       totalFailure++;
-      cell2.innerHTML = type;
-      cell4.innerHTML = '<a href="' + url1 + '"><font color="red">Failed</font></a>';
+      cell4.innerHTML = '<div style="min-width:275px"> <a href="' + url1 + '"><font color="red">Failed</font></a></div>';
       }
+
     }
     }); 
   });
@@ -57,19 +57,18 @@ function allscripts(url1, url2, id, link){
       let cell3 = row.insertCell(2);
       let cell4 = row.insertCell(3);
           
-      cell1.innerHTML = '<a href="' + link + location + '.html">' + location + '</a>';
-      cell2.innerHTML = type;
-      cell3.innerHTML = date;
+      cell1.innerHTML = '<div style="min-width:275px"><a href="' + link + location + '.html">' + location + '</a></div>';
+      cell2.innerHTML = '<div style="min-width:275px">' + type + '</div>';
+      cell3.innerHTML = '<div style="min-width:275px">' + date + '</div>';
       
-
       if (status == "success" ){
       totalSuccess++;
-      cell4.innerHTML = '<a href="' + url2 + '"><font color="#4CAF50">Passed</font></a>';
+      cell4.innerHTML = '<div style="min-width:275px"> <a href="' + url2 + '"><font color="#4CAF50">Passed</font></a></div>';
       }else if (status == "failure"){
       totalFailure++;
-      cell2.innerHTML = type;
-      cell4.innerHTML = '<a href="' + url2 + '"><font color="red">Failed</font></a>';
+      cell4.innerHTML = '<div style="min-width:275px"> <a href="' + url2 + '"><font color="red">Failed</font></a></div>';
       }
+
     }
     });   
     document.getElementById("All").innerHTML = ' All: ' + All;
@@ -97,10 +96,10 @@ function allscripts(url1, url2, id, link){
         let cell2 = row.insertCell(1);
         let cell3 = row.insertCell(2);
         let cell4 = row.insertCell(3);
-        cell1.innerHTML = '<a href="' + link + location + '.html">' + location + '</a>';
-        cell2.innerHTML = type;
-        cell3.innerHTML = date;
-        cell4.innerHTML = '<a href="' + url1 + '"><font color="#4CAF50">Passed</font></a>';
+        cell1.innerHTML = '<div style="min-width:275px"><a href="' + link + location + '.html">' + location + '</a></div>';
+        cell2.innerHTML = '<div style="min-width:275px">' + type + '</div>';
+        cell3.innerHTML = '<div style="min-width:275px">' + date + '</div>';
+        cell4.innerHTML = '<div style="min-width:275px"> <a href="' + url1 + '"><font color="#4CAF50">Passed</font></a></div>';
       }
     }
    });
@@ -120,10 +119,10 @@ function allscripts(url1, url2, id, link){
         let cell2 = row.insertCell(1);
         let cell3 = row.insertCell(2);
         let cell4 = row.insertCell(3);
-        cell1.innerHTML = '<a href="' + link + location + '.html">' + location + '</a>';
-        cell2.innerHTML = type;
-        cell3.innerHTML = date;
-        cell4.innerHTML = '<a href="' + url2 + '"><font color="#4CAF50">Passed</font></a>';
+        cell1.innerHTML = '<div style="min-width:275px"><a href="' + link + location + '.html">' + location + '</a></div>';
+        cell2.innerHTML = '<div style="min-width:275px">' + type + '</div>';
+        cell3.innerHTML = '<div style="min-width:275px">' + date + '</div>';
+        cell4.innerHTML = '<div style="min-width:275px"> <a href="' + url2 + '"><font color="#4CAF50">Passed</font></a></div>';
       }
     }
    });
@@ -149,10 +148,10 @@ function allscripts(url1, url2, id, link){
         let cell2 = row.insertCell(1);
         let cell3 = row.insertCell(2);
         let cell4 = row.insertCell(3);
-        cell1.innerHTML = '<a href="' + link + location + '.html">' + location + '</a>';
-        cell2.innerHTML = type;
-        cell3.innerHTML = date;
-        cell4.innerHTML = '<a href="' + url1 + '"><font color="red">Failed</font></a>';
+        cell1.innerHTML = '<div style="min-width:275px"><a href="' + link + location + '.html">' + location + '</a></div>';
+        cell2.innerHTML = '<div style="min-width:275px">' + type + '</div>';
+        cell3.innerHTML = '<div style="min-width:275px">' + date + '</div>';
+        cell4.innerHTML = '<div style="min-width:275px"> <a href="' + url1 + '"><font color="red">Failed</font></a></div>';
       }
     }
    });
@@ -172,10 +171,10 @@ function allscripts(url1, url2, id, link){
         let cell2 = row.insertCell(1);
         let cell3 = row.insertCell(2);
         let cell4 = row.insertCell(3);
-        cell1.innerHTML = '<a href="' + link + location + '.html">' + location + '</a>';
-        cell2.innerHTML = type;
-        cell3.innerHTML = date;
-        cell4.innerHTML = '<a href="' + url2 + '"><font color="red">Failed</font></a>';
+        cell1.innerHTML = '<div style="min-width:275px"><a href="' + link + location + '.html">' + location + '</a></div>';
+        cell2.innerHTML = '<div style="min-width:275px">' + type + '</div>';
+        cell3.innerHTML = '<div style="min-width:275px">' + date + '</div>';
+        cell4.innerHTML = '<div style="min-width:275px"> <a href="' + url2 + '"><font color="red">Failed</font></a></div>';
       }
     }
    });
