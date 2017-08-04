@@ -105,7 +105,7 @@ function allscripts(){
           cell2.innerHTML = duration;
           cell3.innerHTML = RunDate;
           status == "Success" ? cell4.innerHTML = '<font color="#4CAF50">Success</font>' : cell4.innerHTML = '<font color="red">Failure</font>';
-          errorMessage.includes("https") ? cell5.innerHTML = '<a href="' + errorMessage + '">Blocked By Defect</a>' : cell5.innerHTML = errorMessage;
+          errorMessage.includes("https") ? cell5.innerHTML = '<a href="' + errorMessage + '"> Blocked By Defect ' + errorMessage + '</a>' : cell5.innerHTML = errorMessage;
           status == "Success" ? cell6.innerHTML = logo : cell6.innerHTML = (logoLink + logo);
           });
     document.getElementById("All").innerHTML = ' All: ' + All;
@@ -194,7 +194,7 @@ function allscripts(){
           cell2.innerHTML = duration;
           cell3.innerHTML = RunDate;
           cell4.innerHTML = '<font color="red">Failure</font>';
-          errorMessage.includes("https") ? cell5.innerHTML = '<a href="' + errorMessage + '">Blocked By Defect</a>' : cell5.innerHTML = errorMessage;
+          errorMessage.includes("https") ? cell5.innerHTML = '<a href="' + errorMessage + '">Blocked By Defect' + errorMessage + '</a>' : cell5.innerHTML = errorMessage;
           cell6.innerHTML = (logoLink + logo);
         }
       });
