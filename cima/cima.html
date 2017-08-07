@@ -1,12 +1,9 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<html lang="en">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
 <link rel="stylesheet" href="../css/index.css" type="text/css">
-<html lang="en">
 
 <meta charset="utf-8">
-<div class="container-fluid">
 <div class="container">
 <head><b>
   <div class="header">
@@ -17,13 +14,27 @@
     <a  href="html/ceeCEE.html" style="color:white">| cee & cee </a>
   </div>
 </head>
-	<body>
-	<form method="get" action="cima.structure.zip">
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="../js/dropdown.js"></script>
+  <form method="get" action="cima.structure.zip">
       <button type="submit" id="download">Download Files</button>
   </form>
 </body>
-</b>
-</div>
+
+ <nav> 
+   <div class="dropdown">
+    <button onclick="dropDown()" class="dropbtn">NAVIGATION</button>
+         <div id="myDropdown" class="dropdown-content">
+          <a  href="../index.html">HOME</a>
+          <a  href="../testing/report.html">TESTING REPORT</a>
+          <u><a  href="../cima/cima.html"> CIMA REPORT</a></u>
+          <a  href="../simple/simple.html">SIMPLE REPORT</a>
+      </div>
+  </div>
+</nav>
 </div>
 </html> 
 
