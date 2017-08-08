@@ -588,7 +588,8 @@
     "Warnings": "0"
   },
   {
-    "Duration": "103.38585",
+    "Duration": "103.385850",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Points_Note_Point/20170808_152219.686/LogFile.txt",
@@ -731,15 +732,14 @@
     "Warnings": "0"
   },
   {
-    "Duration": "111.441122",
-    "ErrorMessage": "Runtime Error at line 55: Image Not Found - click Error - No Image Found On Screen: \"Table_View/Guying/changeAttachedtoFirstAnchor\" -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Guys/20170803_135339.338/LogFile.txt",
+    "Duration": "133.37643",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Guys/20170808_160430.970/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-03 13:53:39.338 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-08 16:04:30.970 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
