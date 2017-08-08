@@ -312,13 +312,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.451141",
+    "Duration": "0.479587",
     "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150017536",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_3D/20170808_094011.064/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_3D/20170808_131334.055/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-08 09:40:11.064 -0400",
+    "RunDate": "2017-08-08 13:13:34.055 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -336,13 +336,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "33.789723",
-    "ErrorMessage": "Runtime Error at line 23: scriptFailure - 3b. Zoom out 3D View, Zoom Level -- ",
+    "Duration": "45.554442",
+    "ErrorMessage": "Runtime Error at line 34: scriptFailure - 4c. Zoom into 3D View -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Map/20170727_175127.723/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Map/20170808_110738.663/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 17:51:27.723 -0400",
+    "RunDate": "2017-08-08 11:07:38.663 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "1"
@@ -456,27 +456,26 @@
     "Warnings": "0"
   },
   {
-    "Duration": "83.539441",
-    "ErrorMessage": "Runtime Error at line 14: scriptFailure - 1. Open Insulator Tab in Graphic View -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Wires_Pole_Insulator/20170731_132421.165/LogFile.txt",
+    "Duration": "126.801468",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Wires_Pole_Insulator/20170808_111856.577/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-31 13:24:21.165 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-08 11:18:56.577 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
-    "Duration": "0.004067",
-    "ErrorMessage": "SenseTalk Compiler Exception -- in components_tree_guying_anchor:\nSyntax Error at line 2: Syntax Error - can't understand [matching quote not found] at or near character 40",
-    "Errors": "1",
+    "Duration": "161.633873",
+    "Errors": "0",
     "Exceptions": "0",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Guying_Anchor/20170807_160854.904/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Guying_Anchor/20170808_130919.156/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-07 16:08:54.904 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-08 13:09:19.156 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
