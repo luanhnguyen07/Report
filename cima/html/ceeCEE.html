@@ -1,14 +1,16 @@
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-<link rel="stylesheet" href="../../css/report.css" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script  type="text/javascript" src="../../js/cima.js"></script>
-
 <html lang="en" >
   <meta charset="utf-8">
   <div class="container">
   <head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" href="../../css/report.css" type="text/css">
+  </head>
+
+  <body onload="allscripts('json/structure.json','json/structure1.json','CEE & CEE','ceeCEE/')">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script  type="text/javascript" src="../../js/cima.js"></script>
     <div class="header1">
     <h1> CEE & CEE ANALYSIS REPORT<div class="filter">
           <a href="../cima.html"id="home" style="color:black">HOME</a>
@@ -17,8 +19,6 @@
           <button onclick="failedscripts('json/structure.json','json/structure1.json','CEE & CEE','ceeCEE/')" id="totalFailure" style="color:red">FAILED: </button>
       </div></h1>
   </div>
-</head>
-
 
   <table id ="myTable">
     <tr>
@@ -35,7 +35,7 @@
     </tr>
   </table>
 
-  <body onload="allscripts('json/structure.json','json/structure1.json','CEE & CEE','ceeCEE/')">
+  
   </body>
 
   </div>
