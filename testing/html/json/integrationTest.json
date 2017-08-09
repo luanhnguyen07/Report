@@ -360,13 +360,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "93.282279",
-    "ErrorMessage": "Runtime Error at line 14: scriptFailure - 3. Analysis Finish reveals toolbar -- ",
+    "Duration": "100.496458",
+    "ErrorMessage": "Runtime Error at line 15: scriptFailure - 3. Analysis Finish reveals toolbar -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Analysis/20170727_175224.753/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Analysis/20170809_101400.631/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 17:52:24.753 -0400",
+    "RunDate": "2017-08-09 10:14:00.631 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -732,7 +732,8 @@
     "Warnings": "0"
   },
   {
-    "Duration": "133.37643",
+    "Duration": "133.376430",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Guys/20170808_160430.970/LogFile.txt",
@@ -923,16 +924,16 @@
     "Warnings": "0"
   },
   {
-    "Duration": "142.542929",
-    "ErrorMessage": "Runtime Error at line 45: scriptFailure - 6. New Project, Keyboard Shortcut, Graphic View -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/New_Project/20170727_184716.674/LogFile.txt",
+    "Duration": "312.448137",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/New_Project/20170809_100725.131/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 18:47:16.674 -0400",
-    "Status": "Failure",
-    "Successes": "0",
-    "Warnings": "2"
+    "RunDate": "2017-08-09 10:07:25.131 -0400",
+    "Status": "Success",
+    "Successes": "1",
+    "Warnings": "0"
   },
   {
     "Duration": "48.225170",
@@ -983,13 +984,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "107.792778",
-    "ErrorMessage": "Runtime Error at line 41: scriptFailure - 7. Send Job Confirmation Dialogue -- ",
+    "Duration": "0.565968",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150097211",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Advisor_CEE/20170802_111651.128/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Advisor_CEE/20170809_125203.159/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-02 11:16:51.128 -0400",
+    "RunDate": "2017-08-09 12:52:03.159 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -1007,15 +1008,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.004478",
-    "ErrorMessage": "SenseTalk Compiler Exception -- in analysis_cee:\nSyntax Error at line 51: Syntax Error - can't understand \"project\" at or near character 1963",
-    "Errors": "1",
+    "Duration": "571.029694",
+    "ErrorMessage": "",
+    "Errors": "0",
     "Exceptions": "0",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Analysis_CEE/20170802_163713.667/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Analysis_CEE/20170809_111650.884/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-02 16:37:13.667 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-09 11:16:50.884 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
