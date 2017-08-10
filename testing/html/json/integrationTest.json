@@ -360,13 +360,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "100.496458",
-    "ErrorMessage": "Runtime Error at line 15: scriptFailure - 3. Analysis Finish reveals toolbar -- ",
+    "Duration": "155.52558",
+    "ErrorMessage": "Runtime Error at line 69: scriptFailure - 9b. Hide Component Handle -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Analysis/20170809_101400.631/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Analysis/20170810_115407.404/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-09 10:14:00.631 -0400",
+    "RunDate": "2017-08-10 11:54:07.404 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -528,13 +528,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "49.020784",
-    "ErrorMessage": "Runtime Error at line 3: Image Not Found - capturescreen Error - Unable To Find Image: Graphic_View/openToolbar -- ",
+    "Duration": "0.314794",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/148007721",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Assemblies/20170727_181016.364/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Assemblies/20170810_115333.289/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 18:10:16.364 -0400",
+    "RunDate": "2017-08-10 11:53:33.289 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -912,13 +912,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "46.609630",
-    "ErrorMessage": "Runtime Error at line 11: Image Not Found - click Error - No Image Found On Screen: \"(TEXT:\"SPIDA DB\")\" -- ",
+    "Duration": "0.350273",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150105023",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/SPIDADB_Import/20170809_130458.897/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/SPIDADB_Import/20170810_094235.950/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-09 13:04:58.897 -0400",
+    "RunDate": "2017-08-10 09:42:35.950 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -1188,13 +1188,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "6.872502",
-    "ErrorMessage": "Runtime Error at line 10: Image Not Found - drag Error - No Image Found On Screen: \"General/LocalAssemblies\" -- ",
+    "Duration": "0.342698",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150136883",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Client_Editor_Structure_Assemblies/20170727_193129.985/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Client_Editor_Structure_Assemblies/20170810_105935.149/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 19:31:29.985 -0400",
+    "RunDate": "2017-08-10 10:59:35.149 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
