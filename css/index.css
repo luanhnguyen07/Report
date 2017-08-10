@@ -51,7 +51,7 @@ body {
 .front .logo{
   width:  250px;
   height: 90px;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 5px;
 }
 
@@ -67,13 +67,13 @@ body {
 }
 
 #cima{
-    background: -webkit-linear-gradient(top left, #1a0f00, #ffcc00);
-    background: linear-gradient(to bottom right, #1a0f00, #ffcc00);
+    background: -webkit-linear-gradient(top left, #1a0f00, #3385ff);
+    background: linear-gradient(to bottom right, #1a0f00, #3385ff);
 }
 
 #simple{
-    background: -webkit-linear-gradient(top left, #001a09, #3385ff);
-    background: linear-gradient(to bottom right, #001a09, #3385ff);
+    background: -webkit-linear-gradient(top left, #001a09, #ffcc00);
+    background: linear-gradient(to bottom right, #001a09, #ffcc00);
 }
 
 .back {
@@ -139,7 +139,7 @@ button{
 }
 
 #logo{
-  background-color: white;
+  background-color: none;
 }
 
 li{
