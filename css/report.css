@@ -92,12 +92,14 @@ background: none;
 }
 
 #header{
-	font-size: 25px;
+	font-size: 22px;
 	text-align: left;
+	position: absolute;
+	top: -10px;
 }
 
 .filter{
 	font-size: 16px;
-	text-align: left;
+	text-align: right;
 }
 

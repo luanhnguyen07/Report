@@ -13,12 +13,13 @@
   <script  type="text/javascript" src="../../js/testing.js"></script>
 
   <div class="header1">
-  <h1> TESTING REPORT <div class="filter">
-          <a href="../report.html"id="home" style="color:black">HOME</a>
+  <h1 id="header"> TESTING REPORT </h1>     
+    <div class="filter">
+          <a href="../../index.html" id="home">Home</a>
           <button onclick="allscripts('json/integrationTest.json','https://github.com/spidasoftware/calc/tree/master/qa/Calc%20Test/Integration%20Test.suite/Scripts/')" id="All" style="color:white">ALL: </button>
           <button onclick="passedscripts('json/integrationTest.json','https://github.com/spidasoftware/calc/tree/master/qa/Calc%20Test/Integration%20Test.suite/Scripts/')" id="totalSuccess" style="color:#4CAF50"> PASSED: </button>
           <button onclick="failedscripts('json/integrationTest.json','https://github.com/spidasoftware/calc/tree/master/qa/Calc%20Test/Integration%20Test.suite/Scripts/')" id="totalFailure" style="color:red">FAILED: </button>
-      </div></h1>
+      </div>
   </div>
 
 <table id ="myTable">

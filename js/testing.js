@@ -28,12 +28,12 @@ function allscripts(url,github){
         let logoLink;
         All++; 
         if (status == "Success"){
-          logo = '<img src="../img/pass.jpg" class="passLogo">';
+          logo = '<img src="../../img/pass.jpg" class="passLogo">';
           errorMessage = "No Errors Found!";
           totalSuccess++;
         }else if (status == "Failure"){
           logo = '<img src="../../Images/' + scriptName +'.png" class="logo">';
-          logoLink = '<a href="../../../Images/' + scriptName +'.png">';
+          logoLink = '<a href=".../../Images/' + scriptName +'.png">';
           errorMessage = json.ErrorMessage;
           errorMessage = errorMessage.replace("Runtime Error at ","");
           errorMessage = errorMessage.replace(" - Could Not Open Image","");
@@ -91,7 +91,7 @@ function allscripts(url,github){
         let githubLink = '<b><a href="' + github + scriptName + '.script"> ' + scriptName + '</b></a>';
         let logoLink;
         if (json.Status == "Success"){
-          logo = '<img src="../img/pass.jpg" class="passLogo">';
+          logo = '<img src="../../img/pass.jpg" class="passLogo">';
           status = "Success"
           errorMessage = "No Errors Found!";
 
