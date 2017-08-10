@@ -58,9 +58,10 @@ function allscripts(url,id){
       }
     }
   });
+  document.getElementById("header").innerHTML = id;
   document.getElementById("All").innerHTML = ' All: ' + All;
-    document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
-    document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
+  document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
+  document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
   });
  }
 

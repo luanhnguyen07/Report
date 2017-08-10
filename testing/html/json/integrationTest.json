@@ -1008,13 +1008,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "65",
+    "Duration": "578.672597",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Analysis_CEE/20170809_164748.781/LogFile.txt",
-    "RunDate": "2017-08-09 16:47:48.781 -0400",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Analysis_CEE/20170809_164935.738/LogFile.txt",
+    "ReturnValue": "",
+    "RunDate": "2017-08-09 16:49:35.738 -0400",
     "Status": "Success",
-    "Successes": "0",
+    "Successes": "1",
     "Warnings": "0"
   },
   {

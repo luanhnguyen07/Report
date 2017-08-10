@@ -1,21 +1,72 @@
-<html lang="en">
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-<link rel="stylesheet" href="css/index.css" type="text/css">
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
-<meta charset="utf-8">
-<div class="container">
-<head><b>
-  <div class="header">
-    <a  href="testing/report.html" style="color:#4CAF50">TESTING REPORT</a>
-    <a  href="cima/cima.html" style="color:white">/ CIMA REPORT /</a>
-    <a  href="simple/simple.html" style="color:#4CAF50">SIMPLE REPORT</a>
+<div id='container'>
+  <h1> SPIDA®calc Automation Report </h1>
+  <hr>
+  <div class='card'>
+    <div class='front' id="functional">
+    <img class='logo' src="img/calc.png" id="logo">
+    <br><br><span class='name'>Functional Testing</span>
+    <hr>
+    <span class='job'>integration testing</span><br>
+    <span class='job'>system testing</span><br>
+    <span class='job'>api testing</span>
+    </div>
+    <div class='back' id="functional">
+     <ul>
+      <li><a class='job' href="testing/html/integration.html">integration testing</a></li><br>
+      <li><a class='job' href="testing/html/system.html">system testing</a></li><br>
+      <li><a class='job' href="testing/html/api.html">api testing</a></li><br>
+      <li><a class='job' href="download/" download="cima.structure.zip">download cima structure folder</a></li>
+     </ul>
+    </div>
   </div>
-</head></b>
-
-</div>
-</html> 
-
-
-
-
+  <div class='card'>
+    <div class='front' id="cima">
+    <img class='logo' src="http://nebula.wsimg.com/b1cdf0b5df866512839245d93a337a78?AccessKeyId=92A95F255A51A1F85CB7&disposition=0&alloworigin=1g" id="logo">
+    <br><br><span class='name'>CIMA Structure Analysis</span>
+    <hr>
+    <span class='job'>old local vs current local</span><br>
+    <span class='job'>previous local vs current local</span><br>
+    <span class='job'>current local vs current cee</span><br>
+    <span class='job'>previous cee vs current cee</span><br>
+    </div>
+    <div class='back' id="cima">
+     <ul>
+      <li><a class='job' href="cima/html/oldCurrent.html">old local vs current local</a></li><br>
+      <li><a class='job' href="cima/html/prevCurrent.html">previous local vs current local</a></li><br>
+      <li><a class='job' href="cima/html/ceeCurrent.html">current local vs current cee</a></li><br>
+      <li><a class='job' href="cima/html/ceeCEE.html">previous cee vs current cee</a></li><br>
+      <li><a class='job' href="download/" download="cima.structure.zip">download cima structure folder</a></li>
+     </ul>
+    </div>
+  </div>
+    <div class='card'>
+    <div class='front' id="simple">
+    <img class='logo' src="img/cee.png" id="logo">
+    <br><br><span class='name'>Simple Structure Analysis</span>
+    <hr>
+    <span class='job'>old local vs current local</span><br>
+    <span class='job'>previous local vs current local</span><br>
+    <span class='job'>current local vs current cee</span><br>
+    <span class='job'>previous cee vs current cee</span><br>
+    </div>
+    <div class='back' id="simple">
+     <ul>
+      <li><a class='job' href="simple/html/oldCurrent.html">old local vs current local</a></li><br>
+      <li><a class='job' href="simple/html/prevCurrent.html">previous local vs current local</a></li><br>
+      <li><a class='job' href="simple/html/ceeCurrent.html">current local vs current cee</a></li><br>
+      <li><a class='job' href="simple/html/ceeCEE.html">previous cee vs current cee</a></li><br>
+      <li><a class='job' href="download/" download="simple.structure.zip">download simple structure folder</a></li>
+     </ul>
+    </div>
+  </div>
+ </div>
+</html>

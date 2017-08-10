@@ -42,15 +42,9 @@ body{
 
 
 .header1{
-	font-size: 22px;
 	color:white;
 	font-family:'Quicksand';
-}
 
-
-.filter{
-	float: right;
-	font-size: 17px;
 }
 
 #runDuration,#scriptName,#runDate,#passfail,#errorMessage,#logo,#location,#type,#date,#status,#loadcase,#component,#analysisType,#olddate,#currentdate,#previousEngine,#currentEngine,#previousResult,#currentResult,#status {
@@ -83,12 +77,12 @@ body{
 }
 
 #home{
-	padding: 5px;
-	background: white;
-	width: 40px;
-	height: 6px;
-	font: black;
-	border-radius: 2px;
+border: 2px solid black;
+padding: 5px;
+border-radius: 12px;
+background: white;
+color: black;
+
 }
 
 #All,#totalSuccess,#totalFailure{
@@ -97,4 +91,13 @@ border: none;
 background: none;
 }
 
+#header{
+	font-size: 25px;
+	text-align: left;
+}
+
+.filter{
+	font-size: 16px;
+	text-align: left;
+}
 

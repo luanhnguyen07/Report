@@ -55,9 +55,20 @@ function allscripts(url,github){
           cell1.innerHTML = githubLink;
           cell2.innerHTML = duration;
           cell3.innerHTML = RunDate;
-          status == "Success" ? cell4.innerHTML = '<font color="#4CAF50">Success</font>' : cell4.innerHTML = '<font color="red">Failure</font>';
+          
+          if (status == "Success"){
+            cell4.innerHTML = '<font color="#4CAF50">Success</font>';
+            cell6.innerHTML = logo;
+          } else if (status == "Failure"){
+            cell4.innerHTML = '<font color="red">Failure</font>'
+            cell6.innerHTML = (logoLink + logo);
+          } else if (status == "Running"){
+            throw scriptName + "status is running";
+          }
+
           errorMessage.includes("https") ? cell5.innerHTML = '<a href="' + errorMessage + '">' + errorMessage + '</a>' : cell5.innerHTML = errorMessage;
-          status == "Success" ? cell6.innerHTML = logo : cell6.innerHTML = (logoLink + logo);
+
+
           });
     document.getElementById("All").innerHTML = ' All: ' + All;
     document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
