@@ -39,7 +39,7 @@ function allscripts(url,id){
       let cell7 = row.insertCell(6);
       let cell8 = row.insertCell(7);
           
-      cell1.innerHTML = '<div style="min-width:415px">' + loadcase + '</div>';
+      cell1.innerHTML = loadcase;
       cell2.innerHTML = component;
       cell3.innerHTML = analysisType;
       cell4.innerHTML = previousEngine;
@@ -95,7 +95,7 @@ function allscripts(url,id){
       let cell7 = row.insertCell(6);
       let cell8 = row.insertCell(7);
           
-      cell1.innerHTML = '<div style="min-width:415px">' + loadcase + '</div>';
+      cell1.innerHTML = loadcase;
       cell2.innerHTML = component;
       cell3.innerHTML = analysisType;
       cell4.innerHTML = previousEngine;
@@ -138,7 +138,7 @@ function allscripts(url,id){
         let cell7 = row.insertCell(6);
         let cell8 = row.insertCell(7);
           
-        cell1.innerHTML = '<div style="min-width:415px">' + loadcase + '</div>';
+        cell1.innerHTML = loadcase;
         cell2.innerHTML = component;
         cell3.innerHTML = analysisType;
         cell4.innerHTML = previousEngine;
