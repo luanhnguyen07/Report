@@ -52,7 +52,7 @@ function allscripts(url,github){
           let cell5 = row.insertCell(4);
           let cell6 = row.insertCell(5);
           
-          cell1.innerHTML = githubLink;
+          cell1.innerHTML = '<div style="min-width:340px">' + githubLink + '</div>';
           cell2.innerHTML = duration;
           cell3.innerHTML = RunDate;
           
@@ -66,8 +66,7 @@ function allscripts(url,github){
             throw scriptName + "status is running";
           }
 
-          errorMessage.includes("https") ? cell5.innerHTML = '<a href="' + errorMessage + '">' + errorMessage + '</a>' : cell5.innerHTML = errorMessage;
-
+          errorMessage.includes("https") ? cell5.innerHTML = '<div style="min-width:735px"><a href="' + errorMessage + '">' + errorMessage + '</a></div>' : cell5.innerHTML = '<div style="min-width:735px">' + errorMessage + '</div>';
 
           });
     document.getElementById("All").innerHTML = ' All: ' + All;
@@ -103,11 +102,11 @@ function allscripts(url,github){
           let cell4 = row.insertCell(3);
           let cell5 = row.insertCell(4);
           let cell6 = row.insertCell(5);        
-          cell1.innerHTML = githubLink;
+          cell1.innerHTML = '<div style="min-width:340px">' + githubLink + '</div>';
           cell2.innerHTML = duration;
           cell3.innerHTML = RunDate;
           cell4.innerHTML = '<font color="#4CAF50">Success</font>';
-          cell5.innerHTML = '<div style="min-width:416px" >' + errorMessage + '</div>';
+          cell5.innerHTML = '<div style="min-width:735px">' + errorMessage + '</div>';
           cell6.innerHTML = logo;
         }
       });
@@ -150,11 +149,11 @@ function allscripts(url,github){
           let cell5 = row.insertCell(4);
           let cell6 = row.insertCell(5);
           
-          cell1.innerHTML = githubLink;
+          cell1.innerHTML = '<div style="min-width:345px">' + githubLink + '</div>';
           cell2.innerHTML = duration;
           cell3.innerHTML = RunDate;
           cell4.innerHTML = '<font color="red">Failure</font>';
-          errorMessage.includes("https") ? cell5.innerHTML = '<a href="' + errorMessage + '">' + errorMessage + '</a>' : cell5.innerHTML = errorMessage;
+          errorMessage.includes("https") ? cell5.innerHTML = '<div style="min-width:735px"><a href="' + errorMessage + '">' + errorMessage + '</a></div>' : cell5.innerHTML = '<div style="min-width:735px">' + errorMessage + '</div>';
           cell6.innerHTML = (logoLink + logo);
         }
       });

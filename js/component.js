@@ -39,12 +39,12 @@ function allscripts(url,id){
       let cell7 = row.insertCell(6);
       let cell8 = row.insertCell(7);
           
-      cell1.innerHTML = loadcase;
+      cell1.innerHTML = '<div style="min-width:415px">' + loadcase + '</div>';
       cell2.innerHTML = component;
       cell3.innerHTML = analysisType;
       cell4.innerHTML = previousEngine;
       cell5.innerHTML = currentEngine;
-      cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
+      cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000; //round to the 15th digit
       cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
       
 
@@ -95,7 +95,7 @@ function allscripts(url,id){
       let cell7 = row.insertCell(6);
       let cell8 = row.insertCell(7);
           
-      cell1.innerHTML = loadcase;
+      cell1.innerHTML = '<div style="min-width:415px">' + loadcase + '</div>';
       cell2.innerHTML = component;
       cell3.innerHTML = analysisType;
       cell4.innerHTML = previousEngine;
@@ -138,7 +138,7 @@ function allscripts(url,id){
         let cell7 = row.insertCell(6);
         let cell8 = row.insertCell(7);
           
-        cell1.innerHTML = loadcase;
+        cell1.innerHTML = '<div style="min-width:415px">' + loadcase + '</div>';
         cell2.innerHTML = component;
         cell3.innerHTML = analysisType;
         cell4.innerHTML = previousEngine;

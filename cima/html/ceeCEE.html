@@ -1,25 +1,28 @@
-<html lang="en" >
-  <meta charset="utf-8">
-  <div class="container">
-  <head>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../css/report.css" type="text/css">
-  </head>
-
-  <body onload="allscripts('json/structure.json','json/structure1.json','CEE & CEE','ceeCEE/')">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script  type="text/javascript" src="../../js/cima.js"></script>
+</head>
+
+  <meta charset="utf-8">
+  <div class="container">
+  <head>
     <div class="header1">
-    <h1 id="header"> CEE & CEE ANALYSIS REPORT </h1>     
+    <h1 id="header"> CEE & CEE ANALYSIS REPORT</h1>     
     <div class="filter">
           <a href="../../index.html" id="home">Home</a>
-          <button onclick="allscripts('json/structure.json','json/structure1.json','CEE & CEE','ceeCEE/')" id="All" style="color:white">ALL: </button>
-          <button onclick="passedscripts('json/structure.json','json/structure1.json','CEE & CEE','ceeCEE/')" id="totalSuccess" style="color:#4CAF50"> PASSED: </button>
-          <button onclick="failedscripts('json/structure.json','json/structure1.json','CEE & CEE','ceeCEE/')" id="totalFailure" style="color:#e72e2e">FAILED: </button>
+          <button onclick="allscripts('json/structure.json','json/structure1.json','7.0 & CEE','ceeCEE/')" id="All" style="color:white">ALL: </button>
+          <button onclick="passedscripts('json/structure.json','json/structure1.json','7.0 & CEE','ceeCEE/')" id="totalSuccess" style="color:#4CAF50"> PASSED: </button>
+          <button onclick="failedscripts('json/structure.json','json/structure1.json','7.0 & CEE','ceeCEE/')" id="totalFailure" style="color:#e72e2e">FAILED: </button>
       </div>
   </div>
+</head>
+
 
   <table id ="myTable">
     <tr>
@@ -36,9 +39,10 @@
     </tr>
   </table>
 
-  
+  <body onload="allscripts('json/structure.json','json/structure1.json','7.0 & CEE','ceeCEE/')">
   </body>
 
   </div>
 </html> 
+
 

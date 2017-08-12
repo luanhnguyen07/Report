@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Work Sans');
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
 
 .container {
-   width: 80%;
-
+   width: 90%;
+   height: 100%;
 }
 
 table, td {
@@ -9,7 +14,7 @@ table, td {
     background-color: white;
     padding: 5px;
     font-size: 15px;
-    font-family:'Quicksand';
+    
 }
 
 .result{
@@ -26,7 +31,7 @@ table, td {
     margin-right: auto;
 	font-size: 15px;
 	font-family: Sans-serif;
-	font-family:'Quicksand';
+	
 }
 
 #body{
@@ -43,8 +48,6 @@ body{
 
 .header1{
 	color:white;
-	font-family:'Quicksand';
-
 }
 
 #runDuration,#scriptName,#runDate,#passfail,#errorMessage,#logo,#location,#type,#date,#status,#loadcase,#component,#analysisType,#olddate,#currentdate,#previousEngine,#currentEngine,#previousResult,#currentResult,#status {
@@ -92,14 +95,14 @@ background: none;
 }
 
 #header{
-	font-size: 22px;
+	font-size: 28px;
 	text-align: left;
 	position: absolute;
 	top: -10px;
 }
 
 .filter{
-	font-size: 16px;
+	font-size: 18px;
 	text-align: right;
 }
 
