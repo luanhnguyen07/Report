@@ -336,16 +336,16 @@
     "Warnings": "0"
   },
   {
-    "Duration": "45.554442",
-    "ErrorMessage": "Runtime Error at line 34: scriptFailure - 4c. Zoom into 3D View -- ",
+    "Duration": "47.920700",
+    "ErrorMessage": "Runtime Error at line 47: scriptFailure - 7b. Extend Lead, Ruler Distance and Angle Tooltip -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Map/20170808_110738.663/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Map/20170814_142442.179/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-08 11:07:38.663 -0400",
+    "RunDate": "2017-08-14 14:24:42.179 -0400",
     "Status": "Failure",
     "Successes": "0",
-    "Warnings": "1"
+    "Warnings": "0"
   },
   {
     "Duration": "134.675856",
@@ -360,13 +360,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "155.52558",
-    "ErrorMessage": "Runtime Error at line 69: scriptFailure - 9b. Hide Component Handle -- ",
+    "Duration": "0.401577",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150237797",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Analysis/20170810_115407.404/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Analysis/20170814_155632.179/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-10 11:54:07.404 -0400",
+    "RunDate": "2017-08-14 15:56:32.179 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -480,13 +480,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "158.538299",
-    "ErrorMessage": "Runtime Error at line 61: Image Not Found - drag Error - No Image Found On Screen: \"(TEXT:\"Test\")\" -- ",
+    "Duration": "0.429367",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150184909",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Guying_Guys/20170808_131541.615/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Guying_Guys/20170814_165658.269/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-08 13:15:41.615 -0400",
+    "RunDate": "2017-08-14 16:56:58.269 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -600,13 +600,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "94.967469",
-    "ErrorMessage": "Runtime Error at line 20: Image Not Found - click Error - No Image Found On Screen: \"(TEXT:\"1/0 AAAC\")\" -- ",
+    "Duration": "32.999061",
+    "ErrorMessage": "Runtime Error at line 4: No Remote Connection - imagefound Error - Retrieving Frame Buffer:Connection to server was lost while trying to sync\nLuan's wifi\n -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Create_Local_Framing_Assembly/20170727_181730.187/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Create_Local_Framing_Assembly/20170815_090138.987/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 18:17:30.187 -0400",
+    "RunDate": "2017-08-15 09:01:38.987 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -624,13 +624,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "267.451423",
-    "ErrorMessage": "Runtime Error at line 43: Image Not Found - click Error - No Image Found On Screen: \"(TEXT:\"Wire Point\")\" -- ",
+    "Duration": "0.452467",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150239259",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Attachment/20170727_181916.688/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Attachment/20170814_162410.823/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-07-27 18:19:16.688 -0400",
+    "RunDate": "2017-08-14 16:24:10.823 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
