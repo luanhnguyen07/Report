@@ -1,97 +1,97 @@
 [
   {
     "location": "01-311A-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "01-311A-15kV",
-    "rundate": "08/11/17",
-    "status": "success",
+    "rundate": "08/15/17",
+    "status": "failure",
     "type": "7.0 & 7.0"
   },
   {
     "location": "01-311A-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "failure",
     "type": "7.0 & CEE"
   },
   {
     "location": "01-311A-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "success",
     "type": "CEE & CEE"
   },
   {
     "location": "01-313-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "01-313-15kV",
-    "rundate": "08/11/17",
-    "status": "success",
+    "rundate": "08/15/17",
+    "status": "failure",
     "type": "7.0 & 7.0"
   },
   {
     "location": "01-313-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "failure",
     "type": "7.0 & CEE"
   },
   {
     "location": "01-313-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "success",
     "type": "CEE & CEE"
   },
   {
     "location": "01-313A-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "01-313A-15kV",
-    "rundate": "08/11/17",
-    "status": "success",
+    "rundate": "08/15/17",
+    "status": "failure",
     "type": "7.0 & 7.0"
   },
   {
     "location": "01-313A-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "failure",
     "type": "7.0 & CEE"
   },
   {
     "location": "01-313A-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "success",
     "type": "CEE & CEE"
   },
   {
     "location": "01-318-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "failure",
     "type": "6.4 & 7.0"
   },
   {
     "location": "01-318-15kV",
-    "rundate": "08/11/17",
-    "status": "success",
+    "rundate": "08/15/17",
+    "status": "failure",
     "type": "7.0 & 7.0"
   },
   {
     "location": "01-318-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "failure",
     "type": "7.0 & CEE"
   },
   {
     "location": "01-318-15kV",
-    "rundate": "08/11/17",
+    "rundate": "08/15/17",
     "status": "success",
     "type": "CEE & CEE"
   }
