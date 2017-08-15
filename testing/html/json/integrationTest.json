@@ -336,13 +336,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "47.920700",
-    "ErrorMessage": "Runtime Error at line 47: scriptFailure - 7b. Extend Lead, Ruler Distance and Angle Tooltip -- ",
+    "Duration": "0.318598",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150235644",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Map/20170814_142442.179/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Map/20170815_091543.286/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-14 14:24:42.179 -0400",
+    "RunDate": "2017-08-15 09:15:43.286 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -600,25 +600,25 @@
     "Warnings": "0"
   },
   {
-    "Duration": "32.999061",
-    "ErrorMessage": "Runtime Error at line 4: No Remote Connection - imagefound Error - Retrieving Frame Buffer:Connection to server was lost while trying to sync\nLuan's wifi\n -- ",
+    "Duration": "174.277537",
+    "ErrorMessage": "Runtime Error at line 82: Image Not Found - click Error - No Image Found On Screen: \"Tool_Icons/paste\" -- ",
     "Errors": "1",
     "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Create_Local_Framing_Assembly/20170815_090138.987/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Create_Local_Framing_Assembly/20170815_094453.959/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-15 09:01:38.987 -0400",
+    "RunDate": "2017-08-15 09:44:53.959 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
   },
   {
-    "Duration": "102.620810",
-    "ErrorMessage": "Runtime Error at line 20: Image Not Found - click Error - No Image Found On Screen: \"(TEXT:\"Double Helix\")\" -- ",
+    "Duration": "0.601945",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150259808",
     "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Create_Local_Support_Assembly/20170808_132453.471/LogFile.txt",
+    "Exceptions": "1",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Create_Local_Support_Assembly/20170815_100319.426/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-08 13:24:53.471 -0400",
+    "RunDate": "2017-08-15 10:03:19.426 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
