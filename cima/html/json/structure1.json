@@ -8,19 +8,19 @@
   {
     "location": "01-320-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
     "location": "01-320-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCurrent"
   },
   {
     "location": "01-320-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -32,7 +32,7 @@
   {
     "location": "01-321-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -56,7 +56,7 @@
   {
     "location": "01-329A-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -80,7 +80,7 @@
   {
     "location": "01-330-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -92,7 +92,7 @@
   {
     "location": "01-330-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   }
 ]

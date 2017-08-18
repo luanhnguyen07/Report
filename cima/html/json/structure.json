@@ -8,7 +8,7 @@
   {
     "location": "01-311A-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -32,7 +32,7 @@
   {
     "location": "01-313-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -56,7 +56,7 @@
   {
     "location": "01-313A-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -80,7 +80,7 @@
   {
     "location": "01-318-15kV",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
