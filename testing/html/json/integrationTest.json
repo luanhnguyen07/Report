@@ -60,13 +60,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.015767",
+    "Duration": "0.665076",
     "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/149433177",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Preferences_Menu/20170817_120437.856/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Preferences_Menu/20170804_150242.059/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-17 12:04:37.856 -0400",
+    "RunDate": "2017-08-04 15:02:42.059 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -456,12 +456,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "18.148221",
+    "Duration": "126.801468",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Wires_Pole_Insulator/20170817_143208.460/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Wires_Pole_Insulator/20170808_111856.577/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-17 14:32:08.460 -0400",
+    "RunDate": "2017-08-08 11:18:56.577 -0400",
     "Status": "Success",
     "Successes": "1",
     "Warnings": "0"
@@ -647,15 +648,15 @@
     "Warnings": "0"
   },
   {
-    "Duration": "59.377901",
-    "ErrorMessage": "Runtime Error at line 28: scriptFailure - 3. Change Owners -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Pole_Foundation/20170817_112041.149/LogFile.txt",
+    "Duration": "99.923411",
+    "ErrorMessage": "",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Pole_Foundation/20170817_153435.007/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-17 11:20:41.149 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-17 15:34:35.007 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -767,13 +768,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.562567",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/149925420",
+    "Duration": "0.400159",
+    "ErrorMessage": "STUnknownMessage -- ERROR: No Such Command: 'https'",
     "Errors": "1",
-    "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Push_Brace/20170803_152336.085/LogFile.txt",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Guying_Push_Brace/20170817_162113.297/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-03 15:23:36.085 -0400",
+    "RunDate": "2017-08-17 16:21:13.297 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -852,6 +853,7 @@
   },
   {
     "Duration": "28.776919",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Save_File/20170817_144639.874/LogFile.txt",

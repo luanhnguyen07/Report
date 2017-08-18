@@ -20,7 +20,7 @@
   {
     "location": "Anchor and Guy",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -44,7 +44,7 @@
   {
     "location": "Anchor Guy and Strut Assembly",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -68,7 +68,7 @@
   {
     "location": "Capacitor",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -92,7 +92,7 @@
   {
     "location": "Crossarm Offset 10",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -116,7 +116,7 @@
   {
     "location": "Crossarm",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -140,7 +140,7 @@
   {
     "location": "Guy Span Height at WEP 30",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -164,7 +164,7 @@
   {
     "location": "Guy Span Previous WEP inclination -20",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -188,7 +188,7 @@
   {
     "location": "Guy Span",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -212,7 +212,7 @@
   {
     "location": "Heart Damage",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -284,7 +284,7 @@
   {
     "location": "Point Load",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -332,7 +332,7 @@
   {
     "location": "Pole Top Insulator",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -356,7 +356,7 @@
   {
     "location": "Poor Foundation",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -374,13 +374,13 @@
   {
     "location": "Push Brace GLC 35",
     "rundate": "08/18/17",
-    "status": "failure",
+    "status": "success",
     "type": "ceeCurrent"
   },
   {
     "location": "Push Brace GLC 35",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -398,13 +398,13 @@
   {
     "location": "Push Brace",
     "rundate": "08/18/17",
-    "status": "failure",
+    "status": "success",
     "type": "ceeCurrent"
   },
   {
     "location": "Push Brace",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -428,7 +428,7 @@
   {
     "location": "Tangent Wire Span",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -452,7 +452,7 @@
   {
     "location": "Wire and Dead End Insulator",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -476,7 +476,7 @@
   {
     "location": "Wire Crossarm and Insulator Assembly Previous WEP Inclination -20",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -500,7 +500,7 @@
   {
     "location": "Wire Crossarm and Insulator Assembly",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -524,7 +524,7 @@
   {
     "location": "Wire Point Load X 50lbf Z 0lbf",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -548,7 +548,7 @@
   {
     "location": "Wire Point Load X 50lbf Z 50lbf",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -572,7 +572,7 @@
   {
     "location": "Wire Point Load",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
@@ -590,13 +590,13 @@
   {
     "location": "Wire Previous WEP Direction 185",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCurrent"
   },
   {
     "location": "Wire Previous WEP Direction 185",
     "rundate": "08/18/17",
-    "status": "success",
+    "status": "failure",
     "type": "ceeCEE"
   },
   {
