@@ -38,7 +38,7 @@ table, td {
 	
 }
 
-#body{
+.body{
 	background-color: #4CAF50;
 	border: 1px solid black;
 	padding: 20px;

@@ -6,16 +6,43 @@ function round(value, decimals) {
   return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
 }
 
-function allscripts(url,id){
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+
+let comparisonType = getParameterByName('comparison');
+let getLocation = getParameterByName('location');
+let jsonURL = 'json/' + comparisonType + '.json';
+
+if (getLocation == "01-320-15kV" || getLocation == "01-321-15kV" || getLocation == "01-329A-15kV" || getLocation == "01-330-15kV"){
+  jsonURL = jsonURL.replace('.json','1.json');
+}
+
+let first = getParameterByName('comparisonName').slice(0,3);
+let second = getParameterByName('comparisonName').slice(8,11); <!--get second name-->
+let firstEngine = first + " Engine";
+let secondEngine = second + " Engine";
+let firstResult = first + " Result";
+let secondResult = second + " Result";
+
+function allscripts(){
   let All = 0;
   let totalSuccess = 0;
   let totalFailure = 0;
    clearTable();
    document.getElementById("myTable").deleteRow(1);
    All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON(url, function (result) {
+   $.getJSON(jsonURL, function (result) {
     result.forEach(function(json){
-      if (json.location == id){
+      if (json.location == getLocation){
       let loadcase = json.loadcase;
       let component = json.component;
       let analysisType = json.analysisType;
@@ -51,17 +78,21 @@ function allscripts(url,id){
       All++
       if (status == "success" ){
         totalSuccess++;
-        cell8.innerHTML = '<a href="' + url + '"><font color="#4CAF50">Passed</font></a>';
+        cell8.innerHTML = '<a href="' + jsonURL + '"><font color="#4CAF50">Passed</font></a>';
       }else if (status == "failure"){
         totalFailure++;
-        cell8.innerHTML = '<a href="' + url + '"><font color="red">Failed</font></a>';
+        cell8.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
       }
     }
   });
-  document.getElementById("header").innerHTML = id;
+  document.getElementById("header").innerHTML = getLocation;
   document.getElementById("All").innerHTML = ' All: ' + All;
   document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
   document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
+  document.getElementById("firstEngine").innerHTML = firstEngine;
+  document.getElementById("secondEngine").innerHTML = secondEngine;
+  document.getElementById("firstResult").innerHTML = firstResult;
+  document.getElementById("secondResult").innerHTML = secondResult;
   });
  }
 
@@ -69,9 +100,9 @@ function allscripts(url,id){
   clearTable();
    document.getElementById("myTable").deleteRow(1);
    All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON(url, function (result) {
+   $.getJSON(jsonURL, function (result) {
     result.forEach(function(json){
-      if (json.location == id){
+      if (json.location == getLocation){
       let loadcase = json.loadcase;
       let component = json.component;
       let analysisType = json.analysisType;
@@ -102,7 +133,7 @@ function allscripts(url,id){
       cell5.innerHTML = currentEngine;
       cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
       cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
-      cell8.innerHTML = '<a href="' + url + '"><font color="#4CAF50">Passed</font></a>';
+      cell8.innerHTML = '<a href="' + jsonURL + '"><font color="#4CAF50">Passed</font></a>';
       }}
     });  
   });
@@ -112,9 +143,9 @@ function allscripts(url,id){
   clearTable();
    document.getElementById("myTable").deleteRow(1);
    All = 0, totalSuccess = 0, totalFailure = 0;
-   $.getJSON(url, function (result) {
+   $.getJSON(jsonURL, function (result) {
     result.forEach(function(json){
-       if (json.location == id){
+       if (json.location == getLocation){
       let loadcase = json.loadcase;
       let component = json.component;
       let analysisType = json.analysisType;
@@ -145,7 +176,7 @@ function allscripts(url,id){
         cell5.innerHTML = currentEngine;
         cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
         cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000; 
-        cell8.innerHTML = '<a href="' + url + '"><font color="red">Failed</font></a>';
+        cell8.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
       }}
     });
   });

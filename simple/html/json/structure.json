@@ -1,650 +1,650 @@
 [
   {
     "location": "Anchor and Guy",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Anchor and Guy",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Anchor and Guy",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Anchor and Guy",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Anchor Guy and Strut Assembly",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Anchor Guy and Strut Assembly",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Anchor Guy and Strut Assembly",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Anchor Guy and Strut Assembly",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Capacitor",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Capacitor",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Capacitor",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Capacitor",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Crossarm Offset 10",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Crossarm Offset 10",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Crossarm Offset 10",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Crossarm Offset 10",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Crossarm",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Crossarm",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Crossarm",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Crossarm",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Guy Span Height at WEP 30",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Guy Span Height at WEP 30",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Guy Span Height at WEP 30",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Guy Span Height at WEP 30",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Guy Span Previous WEP inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Guy Span Previous WEP inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Guy Span Previous WEP inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Guy Span Previous WEP inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Guy Span",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Guy Span",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Guy Span",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Guy Span",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Heart Damage",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Heart Damage",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Heart Damage",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Heart Damage",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Point Load X 50lbf Z 0lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Point Load X 50lbf Z 0lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Point Load X 50lbf Z 0lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Point Load X 50lbf Z 0lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Point Load X 50lbf Z 50lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Point Load X 50lbf Z 50lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Point Load X 50lbf Z 50lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Point Load X 50lbf Z 50lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Point Load",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Point Load",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Point Load",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Point Load",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Pole Lean Angle 20 Direction 0",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Pole Lean Angle 20 Direction 0",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Pole Lean Angle 20 Direction 0",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Pole Lean Angle 20 Direction 0",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Pole Top Insulator",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Pole Top Insulator",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Pole Top Insulator",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Pole Top Insulator",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Poor Foundation",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Poor Foundation",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Poor Foundation",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Poor Foundation",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Push Brace GLC 35",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Push Brace GLC 35",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Push Brace GLC 35",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Push Brace GLC 35",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Push Brace",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Push Brace",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Push Brace",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Push Brace",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Tangent Wire Span",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Tangent Wire Span",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Tangent Wire Span",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Tangent Wire Span",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire and Dead End Insulator",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire and Dead End Insulator",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire and Dead End Insulator",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire and Dead End Insulator",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire Crossarm and Insulator Assembly Previous WEP Inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire Crossarm and Insulator Assembly Previous WEP Inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire Crossarm and Insulator Assembly Previous WEP Inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire Crossarm and Insulator Assembly Previous WEP Inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire Crossarm and Insulator Assembly",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire Crossarm and Insulator Assembly",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire Crossarm and Insulator Assembly",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire Crossarm and Insulator Assembly",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire Point Load X 50lbf Z 0lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire Point Load X 50lbf Z 0lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire Point Load X 50lbf Z 0lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire Point Load X 50lbf Z 0lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire Point Load X 50lbf Z 50lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire Point Load X 50lbf Z 50lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire Point Load X 50lbf Z 50lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire Point Load X 50lbf Z 50lbf",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire Point Load",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire Point Load",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire Point Load",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "failure",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire Point Load",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire Previous WEP Direction 185",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire Previous WEP Direction 185",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire Previous WEP Direction 185",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire Previous WEP Direction 185",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire Previous WEP Distance 155",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire Previous WEP Distance 155",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire Previous WEP Distance 155",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire Previous WEP Distance 155",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   },
   {
     "location": "Wire Previous WEP Inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "6.4 & 7.0"
+    "type": "oldCurrent"
   },
   {
     "location": "Wire Previous WEP Inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & 7.0"
+    "type": "prevCurrent"
   },
   {
     "location": "Wire Previous WEP Inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "7.0 & CEE"
+    "type": "ceeCurrent"
   },
   {
     "location": "Wire Previous WEP Inclination -20",
-    "rundate": "08/11/17",
+    "rundate": "08/18/17",
     "status": "success",
-    "type": "CEE & CEE"
+    "type": "ceeCEE"
   }
 ]
