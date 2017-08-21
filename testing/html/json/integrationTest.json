@@ -600,27 +600,25 @@
     "Warnings": "0"
   },
   {
-    "Duration": "150.838126",
-    "ErrorMessage": "Runtime Error at line 79: scriptFailure - 6a. Disassembly Assembly, Component Properities -- ",
-    "Errors": "1",
-    "Exceptions": "2",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Local_Framing_Assembly/20170815_102912.129/LogFile.txt",
+    "Duration": "189.667698",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Local_Framing_Assembly/20170821_145507.202/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-15 10:29:12.129 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-21 14:55:07.202 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
-    "Duration": "0.835568",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150259808",
-    "Errors": "1",
-    "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Local_Support_Assembly/20170815_101617.469/LogFile.txt",
+    "Duration": "139.41083",
+    "Errors": "0",
+    "Exceptions": "0",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Local_Support_Assembly/20170821_150505.516/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-15 10:16:17.469 -0400",
-    "Status": "Failure",
-    "Successes": "0",
+    "RunDate": "2017-08-21 15:05:05.516 -0400",
+    "Status": "Success",
+    "Successes": "1",
     "Warnings": "0"
   },
   {
@@ -853,6 +851,7 @@
   },
   {
     "Duration": "30.489554",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Save_File/20170821_115829.491/LogFile.txt",
@@ -1020,6 +1019,7 @@
   },
   {
     "Duration": "247.976939",
+    "ErrorMessage": "",
     "Errors": "0",
     "Exceptions": "0",
     "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Comparison_View/20170821_130246.709/LogFile.txt",
