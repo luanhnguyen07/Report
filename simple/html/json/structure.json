@@ -56,7 +56,7 @@
   {
     "location": "Capacitor",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -104,7 +104,7 @@
   {
     "location": "Crossarm",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -218,13 +218,13 @@
   {
     "location": "Point Load X 50lbf Z 0lbf",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "oldCurrent"
   },
   {
     "location": "Point Load X 50lbf Z 0lbf",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -242,13 +242,13 @@
   {
     "location": "Point Load X 50lbf Z 50lbf",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "oldCurrent"
   },
   {
     "location": "Point Load X 50lbf Z 50lbf",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -296,7 +296,7 @@
   {
     "location": "Pole Lean Angle 20 Direction 0",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -512,7 +512,7 @@
   {
     "location": "Wire Point Load X 50lbf Z 0lbf",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -536,7 +536,7 @@
   {
     "location": "Wire Point Load X 50lbf Z 50lbf",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -578,13 +578,13 @@
   {
     "location": "Wire Previous WEP Direction 185",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "oldCurrent"
   },
   {
     "location": "Wire Previous WEP Direction 185",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -602,13 +602,13 @@
   {
     "location": "Wire Previous WEP Distance 155",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "oldCurrent"
   },
   {
     "location": "Wire Previous WEP Distance 155",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
@@ -626,13 +626,13 @@
   {
     "location": "Wire Previous WEP Inclination -20",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "oldCurrent"
   },
   {
     "location": "Wire Previous WEP Inclination -20",
     "rundate": "08/22/17",
-    "status": "success",
+    "status": "failure",
     "type": "prevCurrent"
   },
   {
