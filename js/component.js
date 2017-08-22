@@ -2,11 +2,6 @@ function clearTable(){
   $("#myTable td").remove();
 }
 
-function round(value, decimals) {
-  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
-}
-
-
 function getParameterByName(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");
@@ -52,6 +47,7 @@ function allscripts(){
       let currentEngine = json.currentEngine;
       let previousResult = json.previousResult;
       let currentResult = json.currentResult;
+      let difference = json.difference;
       let status = json.status;
    
 
@@ -65,6 +61,7 @@ function allscripts(){
       let cell6 = row.insertCell(5);
       let cell7 = row.insertCell(6);
       let cell8 = row.insertCell(7);
+      let cell9 = row.insertCell(8);
           
       cell1.innerHTML = loadcase;
       cell2.innerHTML = component;
@@ -73,15 +70,15 @@ function allscripts(){
       cell5.innerHTML = currentEngine;
       cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000; //round to the 15th digit
       cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
-      
+      cell8.innerHTML = difference; 
 
       All++
       if (status == "success" ){
         totalSuccess++;
-        cell8.innerHTML = '<a href="' + jsonURL + '"><font color="#4CAF50">Passed</font></a>';
+        cell9.innerHTML = '<a href="' + jsonURL + '"><font color="#4CAF50">Passed</font></a>';
       }else if (status == "failure"){
         totalFailure++;
-        cell8.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
+        cell9.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
       }
     }
   });
@@ -112,6 +109,7 @@ function allscripts(){
       let currentEngine = json.currentEngine;
       let previousResult = json.previousResult;
       let currentResult = json.currentResult;
+      let difference = json.difference;
       let status = json.status;
 
       if (status == "success" ){
@@ -125,6 +123,7 @@ function allscripts(){
       let cell6 = row.insertCell(5);
       let cell7 = row.insertCell(6);
       let cell8 = row.insertCell(7);
+      let cell9 = row.insertCell(8);
           
       cell1.innerHTML = loadcase;
       cell2.innerHTML = component;
@@ -133,7 +132,8 @@ function allscripts(){
       cell5.innerHTML = currentEngine;
       cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
       cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
-      cell8.innerHTML = '<a href="' + jsonURL + '"><font color="#4CAF50">Passed</font></a>';
+      cell8.innerHTML = difference;
+      cell9.innerHTML = '<a href="' + jsonURL + '"><font color="#4CAF50">Passed</font></a>';
       }}
     });  
   });
@@ -155,6 +155,7 @@ function allscripts(){
       let currentEngine = json.currentEngine;
       let previousResult = json.previousResult;
       let currentResult = json.currentResult;
+      let difference = json.difference;
       let status = json.status;
 
       if (status == "failure"){
@@ -168,7 +169,8 @@ function allscripts(){
         let cell6 = row.insertCell(5);
         let cell7 = row.insertCell(6);
         let cell8 = row.insertCell(7);
-          
+        let cell9 = row.insertCell(8);
+        
         cell1.innerHTML = loadcase;
         cell2.innerHTML = component;
         cell3.innerHTML = analysisType;
@@ -176,7 +178,8 @@ function allscripts(){
         cell5.innerHTML = currentEngine;
         cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
         cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000; 
-        cell8.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
+        cell8.innerHTML = difference;
+        cell9.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
       }}
     });
   });
