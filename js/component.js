@@ -168,7 +168,7 @@ function allscripts(){
         let cell5 = row.insertCell(4);
         let cell6 = row.insertCell(5);
         let cell7 = row.insertCell(6);
-        let cell8 = row.insertCell(7);
+        let cell8 = row.insertCell(7);  
         let cell9 = row.insertCell(8);
         
         cell1.innerHTML = loadcase;
@@ -176,8 +176,8 @@ function allscripts(){
         cell3.innerHTML = analysisType;
         cell4.innerHTML = previousEngine;
         cell5.innerHTML = currentEngine;
-        cell6.innerHTML = previousResult;
-        cell7.innerHTML = currentResult;
+        cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000; //round to the 15th digit
+        cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
         cell8.innerHTML = difference;
         cell9.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
       }}
