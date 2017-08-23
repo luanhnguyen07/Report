@@ -61,7 +61,6 @@ function allscripts(){
       totalFailure++;
       cell4.innerHTML = ' <a href="' + "json/structure.json" + '"><font color="red">Failed</font></a>';
       }
-
     }
     }); 
   });

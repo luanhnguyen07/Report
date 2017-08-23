@@ -176,8 +176,8 @@ function allscripts(){
         cell3.innerHTML = analysisType;
         cell4.innerHTML = previousEngine;
         cell5.innerHTML = currentEngine;
-        cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000;
-        cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000; 
+        cell6.innerHTML = previousResult;
+        cell7.innerHTML = currentResult;
         cell8.innerHTML = difference;
         cell9.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
       }}
