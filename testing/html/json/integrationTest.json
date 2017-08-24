@@ -168,13 +168,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.578969",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/148827621 https://www.pivotaltracker.com/story/show/150495570 - low priority verified",
+    "Duration": "0.527165",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/148827621 - low priority https://www.pivotaltracker.com/story/show/150495570 - low priority - verified",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Project_Settings_Location_Forms/20170823_155402.622/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Project_Settings_Location_Forms/20170824_100403.090/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-23 15:54:02.622 -0400",
+    "RunDate": "2017-08-24 10:04:03.090 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -312,7 +312,7 @@
     "Warnings": "0"
   },
   {
-    "Duration": "1.17885",
+    "Duration": "1.178850",
     "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150017536",
     "Errors": "1",
     "Exceptions": "1",
@@ -360,13 +360,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.593888",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150237797 - low priority verified",
+    "Duration": "0.503064",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150237797 - low priority - verified",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Analysis/20170823_162926.462/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Graphic_View_Analysis/20170824_100321.063/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-23 16:29:26.462 -0400",
+    "RunDate": "2017-08-24 10:03:21.063 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -528,13 +528,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "1.14526",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/148007721 - low priority https://www.pivotaltracker.com/story/show/150498612  - low priority",
+    "Duration": "0.481727",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/148007721 - low priority https://www.pivotaltracker.com/story/show/150498612  - low priority - verified",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Assemblies/20170823_171130.950/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Components_Tree_Assemblies/20170824_100236.991/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-23 17:11:30.950 -0400",
+    "RunDate": "2017-08-24 10:02:36.991 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -624,13 +624,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.432105",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150239259 - low priority",
+    "Duration": "0.543793",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150239259 - low priority - verified",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Attachment/20170821_165349.198/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Table_View_Attachment/20170824_100421.095/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-21 16:53:49.198 -0400",
+    "RunDate": "2017-08-24 10:04:21.095 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -949,12 +949,12 @@
   },
   {
     "Duration": "0",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150102050 - low priority",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150102050 - low priority - verified",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Import_&_Export_Pole_CSV/20170821_165424.567/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Import_&_Export_Pole_CSV/20170824_102150.644/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-21 16:54:24.567 -0400",
+    "RunDate": "2017-08-24 10:21:50.644 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -1104,13 +1104,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.482102",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/149231339 - low priority",
+    "Duration": "0.462785",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/149231339 - low priority verified",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Client_Editor_Structure_Wires/20170821_165447.179/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Client_Editor_Structure_Wires/20170824_104506.495/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-21 16:54:47.179 -0400",
+    "RunDate": "2017-08-24 10:45:06.495 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -1188,13 +1188,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.512568",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150136883 - low priority",
+    "Duration": "0.465868",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/150136883 - low priority - verified",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Client_Editor_Structure_Assemblies/20170821_165534.618/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Client_Editor_Structure_Assemblies/20170824_104523.858/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-21 16:55:34.618 -0400",
+    "RunDate": "2017-08-24 10:45:23.858 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
@@ -1212,13 +1212,13 @@
     "Warnings": "0"
   },
   {
-    "Duration": "0.532813",
-    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/142972917 - low priority",
+    "Duration": "0.472158",
+    "ErrorMessage": " -- https://www.pivotaltracker.com/story/show/142972917 - low priority - verified",
     "Errors": "1",
     "Exceptions": "1",
-    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Client_Editor_Analysis_Strength/20170821_165545.917/LogFile.txt",
+    "LogFile": "/Users/luannguyen/Desktop/calc/qa/Calc Test/Integration Test.suite/Results/Client_Editor_Analysis_Strength/20170824_104534.189/LogFile.txt",
     "ReturnValue": "",
-    "RunDate": "2017-08-21 16:55:45.917 -0400",
+    "RunDate": "2017-08-24 10:45:34.189 -0400",
     "Status": "Failure",
     "Successes": "0",
     "Warnings": "0"
