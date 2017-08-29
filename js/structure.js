@@ -62,38 +62,7 @@ function allscripts(){
       cell4.innerHTML = ' <a href="' + "json/structure.json" + '"><font color="red">Failed</font></a>';
       }
     }
-    }); 
-  });
-    $.getJSON("json/structure1.json", function (result) {
-    result.forEach(function(json){
-      let location = json.location;
-      let type = json.type;
-      let date = json.rundate;
-      let status = json.status;
-      
-      if (type == comparisonType){
-      All++; 
-      let table = document.getElementById("myTable");
-      let row = table.insertRow(-1);
-      let cell1 = row.insertCell(0);
-      let cell2 = row.insertCell(1);
-      let cell3 = row.insertCell(2);
-      let cell4 = row.insertCell(3);
-          
-      cell1.innerHTML = '<a href="location.html?comparison=' + comparisonType + '&location=' + location + '&comparisonName=' + comparisonName + '">' + location + '</a>';
-      cell2.innerHTML = comparisonName;
-      cell3.innerHTML = date;
-      
-      if (status == "success" ){
-      totalSuccess++;
-      cell4.innerHTML = ' <a href="' + "json/structure1.json" + '"><font color="#4CAF50">Passed</font></a>';
-      }else if (status == "failure"){
-      totalFailure++;
-      cell4.innerHTML = ' <a href="' + "json/structure1.json" + '"><font color="red">Failed</font></a>';
-      }
-
-    }
-    });   
+    });  
     document.getElementById("header").innerHTML = comparisonName + " ANALYSIS REPORT";
     document.getElementById("All").innerHTML = ' All: ' + All;
     document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
@@ -128,29 +97,6 @@ function allscripts(){
     }
    });
  });
-     $.getJSON("json/structure1.json", function (result) {
-    result.forEach(function(json){
-      let location = json.location;
-      let type = json.type;
-      let date = json.rundate;
-      let status = json.status;
-
-      if (type == comparisonType){ 
-      let table = document.getElementById("myTable");                 
-      if (status == "success"){
-        let row = table.insertRow(-1);
-        let cell1 = row.insertCell(0);
-        let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2);
-        let cell4 = row.insertCell(3);
-        cell1.innerHTML = '<a href="location.html?comparison=' + comparisonType + '&location=' + location + '&comparisonName=' + comparisonName + '">' + location + '</a>';
-        cell2.innerHTML = comparisonName;
-        cell3.innerHTML = date;
-        cell4.innerHTML = ' <a href="' + "json/structure1.json" + '"><font color="#4CAF50">Passed</font></a>';
-      }
-    }
-   });
- });
 }
 
 
@@ -179,28 +125,5 @@ function allscripts(){
       }
     }
    });
- });
-   $.getJSON("json/structure1.json", function (result) {
-    result.forEach(function(json){
-      let location = json.location;
-      let type = json.type;
-      let date = json.rundate;
-      let status = json.status;
-
-      if (type == comparisonType){   
-        let table = document.getElementById("myTable");
-        if (status == "failure"){
-        let row = table.insertRow(-1);
-        let cell1 = row.insertCell(0);
-        let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2);
-        let cell4 = row.insertCell(3);
-        cell1.innerHTML = '<a href="location.html?comparison=' + comparisonType + '&location=' + location + '&comparisonName=' + comparisonName + '">' + location + '</a>';
-        cell2.innerHTML = comparisonName;
-        cell3.innerHTML = date;
-        cell4.innerHTML = ' <a href="' + "json/structure1.json" + '"><font color="red">Failed</font></a>';
-      }
-    }
-   });
- });
+  });
 }
