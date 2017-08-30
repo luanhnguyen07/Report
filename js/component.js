@@ -22,7 +22,7 @@ if (getLocation == "01-320-15kV" || getLocation == "01-321-15kV" || getLocation 
 }
 
 let first = getParameterByName('comparisonName').slice(0,3);
-let second = getParameterByName('comparisonName').slice(8,11); <!--get second name-->
+let second = getParameterByName('comparisonName').slice(8,11); //get second name
 let firstEngine = first + " Engine";
 let secondEngine = second + " Engine";
 let firstResult = first + " Result";
@@ -50,8 +50,10 @@ function allscripts(){
       let currentResult = json.currentResult;
       let difference = json.difference;
       let status = json.status;
+      if (difference >= 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368){
+        difference = "infinity";
+      }
    
-
       let table = document.getElementById("myTable");
       let row = table.insertRow(-1);
       let cell1 = row.insertCell(0);
@@ -82,7 +84,7 @@ function allscripts(){
         cell9.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
       }
 
-      if (difference > 1){
+      if (difference > 1 || difference === "infinity"){
         moreThanOne++;
       }
     }
@@ -117,6 +119,9 @@ function passedscripts(url,id){
       let currentResult = json.currentResult;
       let difference = json.difference;
       let status = json.status;
+      if (difference >= 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368){
+        difference = "infinity";
+      }
 
       if (status == "success" ){
       let table = document.getElementById("myTable");
@@ -163,6 +168,9 @@ function failedscripts(url,id){
       let currentResult = json.currentResult;
       let difference = json.difference;
       let status = json.status;
+      if (difference >= 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368){
+        difference = "infinity";
+      }
 
       if (status == "failure"){
         let table = document.getElementById("myTable");
@@ -209,9 +217,12 @@ function failedscripts(url,id){
       let currentResult = json.currentResult;
       let difference = json.difference;
       let status = json.status;
+      if (difference >= 179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368){
+        difference = "infinity";
+      }
 
       if (status == "failure"){
-        if (difference > 1){
+        if (difference > 1 || difference == "infinity"){
           let table = document.getElementById("myTable");
           let row = table.insertRow(-1);
           let cell1 = row.insertCell(0);
