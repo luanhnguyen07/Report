@@ -93,7 +93,7 @@ function allscripts(){
   document.getElementById("All").innerHTML = ' All: ' + All;
   document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
   document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
-  document.getElementById("moreThanOne").innerHTML = 'Difference < 1: ' + moreThanOne;
+  document.getElementById("moreThanOne").innerHTML = 'Difference > 1: ' + moreThanOne;
   document.getElementById("firstEngine").innerHTML = firstEngine;
   document.getElementById("secondEngine").innerHTML = secondEngine;
   document.getElementById("firstResult").innerHTML = firstResult;
