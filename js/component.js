@@ -32,6 +32,7 @@ function allscripts(){
   let All = 0;
   let totalSuccess = 0;
   let totalFailure = 0;
+  let moreThanOne = 0;
    clearTable();
    document.getElementById("myTable").deleteRow(1);
    All = 0, totalSuccess = 0, totalFailure = 0;
@@ -80,12 +81,17 @@ function allscripts(){
         totalFailure++;
         cell9.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
       }
+
+      if (difference > 1){
+        moreThanOne++;
+      }
     }
   });
   document.getElementById("header").innerHTML = getLocation;
   document.getElementById("All").innerHTML = ' All: ' + All;
   document.getElementById("totalSuccess").innerHTML = ' Passed: ' + totalSuccess;
   document.getElementById("totalFailure").innerHTML = 'Failed: ' + totalFailure;
+  document.getElementById("moreThanOne").innerHTML = 'Difference < 1: ' + moreThanOne;
   document.getElementById("firstEngine").innerHTML = firstEngine;
   document.getElementById("secondEngine").innerHTML = secondEngine;
   document.getElementById("firstResult").innerHTML = firstResult;
@@ -93,7 +99,7 @@ function allscripts(){
   });
  }
 
- function passedscripts(url,id){
+function passedscripts(url,id){
   clearTable();
    document.getElementById("myTable").deleteRow(1);
    All = 0, totalSuccess = 0, totalFailure = 0;
@@ -139,7 +145,7 @@ function allscripts(){
   });
  }
 
- function failedscripts(url,id){
+function failedscripts(url,id){
   clearTable();
    document.getElementById("myTable").deleteRow(1);
    All = 0, totalSuccess = 0, totalFailure = 0;
@@ -180,6 +186,54 @@ function allscripts(){
         cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
         cell8.innerHTML = difference;
         cell9.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
+      }}
+    });
+  });
+ }
+
+ function moreThanOneScripts(url,id){
+  clearTable();
+   document.getElementById("myTable").deleteRow(1);
+   All = 0, totalSuccess = 0, totalFailure = 0;
+   $.getJSON(jsonURL, function (result) {
+    result.forEach(function(json){
+       if (json.location == getLocation){
+      let loadcase = json.loadcase;
+      let component = json.component;
+      let analysisType = json.analysisType;
+      let olddate = json.olddate;
+      let currentdate = json.currentdate;
+      let previousEngine = json.previousEngine;
+      let currentEngine = json.currentEngine;
+      let previousResult = json.previousResult;
+      let currentResult = json.currentResult;
+      let difference = json.difference;
+      let status = json.status;
+
+      if (status == "failure"){
+        if (difference > 1){
+          let table = document.getElementById("myTable");
+          let row = table.insertRow(-1);
+          let cell1 = row.insertCell(0);
+          let cell2 = row.insertCell(1);
+          let cell3 = row.insertCell(2);
+          let cell4 = row.insertCell(3);
+          let cell5 = row.insertCell(4);
+          let cell6 = row.insertCell(5);
+          let cell7 = row.insertCell(6);
+          let cell8 = row.insertCell(7);  
+          let cell9 = row.insertCell(8);
+          
+          cell1.innerHTML = loadcase;
+          cell2.innerHTML = component;
+          cell3.innerHTML = analysisType;
+          cell4.innerHTML = previousEngine;
+          cell5.innerHTML = currentEngine;
+          cell6.innerHTML = Math.round(previousResult*1000000000000000)/1000000000000000; //round to the 15th digit
+          cell7.innerHTML = Math.round(currentResult*1000000000000000)/1000000000000000;
+          cell8.innerHTML = difference;
+          cell9.innerHTML = '<a href="' + jsonURL + '"><font color="red">Failed</font></a>';
+        }
       }}
     });
   });

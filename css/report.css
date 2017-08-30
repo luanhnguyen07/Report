@@ -92,7 +92,7 @@ color: black;
 
 }
 
-#All,#totalSuccess,#totalFailure{
+#All,#totalSuccess,#totalFailure,#moreThanOne{
 padding: 10px;
 border: none;
 background: none;
